@@ -12,52 +12,9 @@ Use ems instead of percentages.
 /*Fonts*/
 
 @font-face {
-	font-family: "Roboto Slab Regular";
-	src: url("../fonts/RobotoSlab-Regular.ttf");
+	font-family: "Noto Sans Shavian";
+	src: url("../fonts/NotoSansShavian-Regular.ttf");
 }
-
-@font-face {
-	font-family: "Roboto Slab Bold";
-	src: url("../fonts/RobotoSlab-Bold.ttf");
-}
-
-@font-face {
-	font-family: "Roboto";
-	src: url("../fonts/Roboto-Regular.ttf");
-}
-
-@font-face {
-	font-family: "Roboto Bold";
-	font-weight: bold;
-	src: url("../fonts/Roboto-Bold.ttf");
-}
-
-@font-face {
-	font-family: "Roboto Italic";
-	font-weight: italic;
-	src: url("../fonts/Roboto-Italic.ttf");
-}
-
-@font-face {
-	font-family: "Roboto Serif";
-	src: url("../fonts/RobotoSerif-Regular.ttf");
-}
-
-@font-face {
-	font-family: "Roboto Serif Bold";
-	src: url("../fonts/RobotoSerif-Bold.ttf");
-}
-
-@font-face {
-	font-family: "Roboto Serif Italic";
-	src: url("../fonts/RobotoSerif-Italic.ttf");
-}
-
-/*@font-face {
-	font-family: "Roboto Bold-Italic";
-	font-weight: italic;
-	src: url("../fonts/Roboto-BoldItalic.ttf");
-}*/
 
 /*Cover*/
 
@@ -79,16 +36,16 @@ h1.title {
 	font-size: 2em;
 	font-weight: bold;
 	text-align: center;
-	font-family: "Roboto Slab Bold", serif;
-	margin-top: 4em;
+	font-family: sans-serif;
+	margin-top: 0.25em;
 	margin-bottom: 0em;
 }
 
 h2.title {
-	font-size: 1.2em;
+	font-size: 1.5em;
 	font-weight: normal;
 	text-align: center;
-	font-family: serif;
+	font-family: sans-serif;
 	margin-top: 0.3em;
 	margin-bottom: 0.3em;
 }
@@ -110,33 +67,22 @@ h4.title {
 	text-align: center;
 }
 
-div.title-line {
-	margin-left: 1em;
-	margin-right: 1em;
-}
-
-h1.new-title {
-	margin-top: 6em;
-	font-size: 1.7em;
-	font-family: serif;
+h1.title-shavian {
+	font-size: 2em;
 	font-weight: bold;
 	text-align: center;
+	font-family: "Noto Sans Shavian";
+	margin-top: 2em;
+	margin-bottom: 0em;
 }
 
-h2.new-title {
-	margin-top: 3em;
+h2.title-shavian {
 	font-size: 1.5em;
-	font-family: serif;
 	font-weight: normal;
 	text-align: center;
-}
-
-h3.new-title {
-	margin-top: 0em;
-	font-size: 1.3em;
-	font-family: serif;
-	font-weight: normal;
-	text-align: center;
+	font-family: "Noto Sans Shavian";
+	margin-top: 2.5em;
+	margin-bottom: 0.3em;
 }
 
 /*Indicia Headings*/
@@ -144,9 +90,10 @@ h3.new-title {
 h1.indicia-heading {
 	text-align: center;
 	font-size: 1em;
-	font-family: "Roboto Bold", sans-serif;
+	font-family: sans-serif;
 	font-weight: bold;
-	margin-bottom: 1em;
+	margin-top: 0em;
+	margin-bottom: 2em;
 }
 
 h2.indicia-heading {
@@ -159,15 +106,24 @@ h2.indicia-heading {
 	margin-bottom: 1em;
 }
 
+h1.indicia-heading-shavian {
+	text-align: center;
+	font-size: 1em;
+	font-family: "Noto Sans Shavian";
+	font-weight: bold;
+	margin-top: 2em;
+	margin-bottom: 0.2em;
+}
+
 /*Chapter Headings*/
 
 h1.heading {
 	font-size: 1.7em;
-	font-family: "Roboto Slab Bold", serif;
+	font-family: sans-serif;
 	font-weight: bold;
 	text-align: center;
 	color: #000;
-	margin-top: 0.5em;
+	margin-top: 0.2em;
 	margin-bottom: 1em;
 }
 
@@ -199,6 +155,16 @@ h4.heading {
 	font-weight: normal;
 	text-align: center;
 	margin-top: 0.8em;
+	margin-bottom: 0.2em;
+}
+
+h1.heading-shavian {
+	font-size: 1.7em;
+	font-family: "Noto Sans Shavian";
+	font-weight: bold;
+	text-align: center;
+	color: #000;
+	margin-top: 0.7em;
 	margin-bottom: 0.2em;
 }
 
@@ -323,6 +289,7 @@ p.indicia, .indicia {
 	font-size: 0.8em!important; /*0.8em or small*/
 	font-family: "Roboto", sans-serif;
 	text-indent: 1em!important;
+	text-align: center;
 	font-variant-numeric: tabular-nums; /*Force cap-height proportional numbers for fonts that use default text figures such as Literata or Georgia.*/
 }
 
