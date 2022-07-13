@@ -1,0 +1,230 @@
+
+body { 
+font-family: "Times", serif;
+font-size: 20px;
+color: #000000;
+margin-left: 60px;
+margin-right: 20px;
+margin-top: 20px;
+margin-bottom: 20px;
+background: #ffffff url(./bildoj/border_brn_lh.png);
+background-image: url(./bildoj/border_brn_lh.png);
+background-repeat: repeat-y;
+}
+
+
+b {
+color: #610000;
+}
+
+h1 { 
+font-family: "Ariel", "Ariel", sans-serif;
+font-weight: 700;
+font-size: 130%;
+color: #610000; 
+} 
+
+h2 { 
+font-family: "Ariel", sans-serif;
+font-weight: 700; 
+font-size: 115%;
+color: #610000;
+} 
+
+h3 { 
+font-family: "Ariel", sans-serif;
+font-weight: 300;
+font-size: 100%;
+color: #610000;
+}
+
+h4 { 
+font-family: "Ariel", sans-serif;
+font-weight: 600;
+font-size: 90%;
+color: #000000;
+} 
+
+h1.center { 
+text-align: center;
+} 
+
+h2.center { 
+text-align: center;
+} 
+
+h3.center { 
+text-align: center;
+}
+
+h4.center { 
+text-align: center;
+} 
+
+hr {  
+width: auto;
+margin-left:10%;
+margin-right:10%;
+height: 5px;
+color: moccasin;
+background-color: moccasin;
+border: 2px solid darkred;
+}   
+
+hr.thin {  
+width: 70%;
+height: 3px;
+color: moccasin;
+background-color: moccasin;
+border: 1px solid darkred;
+}   
+
+code { 
+font-family: "Ariel", sans-serif;
+font-weight: 200;
+font-size: 100%;
+color: teal;
+}
+
+p {
+text-indent: 5%;
+line-height: 100%;
+text-align: justify;
+}
+
+p.left {
+text-indent: 0%;
+text-align: left;
+}
+
+p.right {
+text-indent: 0%;
+text-align: right;
+}
+
+p.center {
+text-indent: 0%;
+text-align: center;
+}
+
+p.test {
+text-indent: 0%;
+line-height: 80%;
+text-align: center;
+}
+
+p.right {
+text-align: right;
+}
+
+sub.chem {
+font-size: 50%;
+}
+
+blockquote.telegram { 
+font-family: "Ariel", sans-serif;
+color: #610000;
+font-size: 80%;
+margin-left: 10%;
+margin-right: 10%;
+text-indent: 0%;
+line-height: 115%; 
+text-align: justify;
+} 
+
+blockquote { 
+font-family: "Ariel", sans-serif;
+color: #610000;
+font-size: 80%;
+margin-left: 10%;
+margin-right: 10%;
+text-indent: 0%;
+line-height: 115%; 
+text-align: justify;
+} 
+
+blockquote.left { 
+font-family: "Ariel", sans-serif;
+color: #610000;
+font-size: 80%;
+margin-left: 10%;
+margin-right: 10%;
+line-height: 115%; 
+text-align: left;
+text-indent: 5%;
+} 
+
+blockquote.left_shared { 
+font-family: "Ariel", sans-serif;
+color: #610000;
+font-size: 80%;
+margin-left: 5%;
+margin-right: 5%;
+text-indent: 0%;
+line-height: 115%; 
+text-align: left;
+} 
+
+blockquote.center { 
+font-family: "Ariel", sans-serif;
+color: #610000;
+font-size: 80%;
+margin-left: 10%;
+margin-right: 10%;
+text-indent: 0%;
+line-height: 115%; 
+text-align: center;
+} 
+
+table th tr td { 
+font-family: "Ariel", sans-serif;
+color: #610000;
+font-size: 90%;
+margin-left: 0%;
+margin-right: 0%;
+text-indent: 0%;
+line-height: 120%; 
+text-align: center;
+} 
+
+table.thumbs { 
+clear:left;
+width:80%;
+margin-left:auto;
+margin-right:auto;
+border:5px;
+}
+
+code { 
+font-family: "Ariel", sans-serif;
+font-size: 90%;
+color: navy;
+} 
+
+a:link { 
+color: #0000bb;
+text-decoration: none;
+} 
+
+a:visited { 
+color: #0000bb;
+text-decoration: none;
+} 
+
+a:active { 
+color: #610000;
+text-decoration: none;
+}   
+
+a.button { 
+border: 2px outset darkred;
+color: black;
+background: moccasin;
+font-size: 60%; font-family: sans-serif;
+position: relative;
+bottom: .1em;    
+}
+
+li { 
+type: none;
+} 
