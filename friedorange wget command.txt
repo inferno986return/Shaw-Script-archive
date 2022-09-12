@@ -1,0 +1,671 @@
+wget2 -r http://friedorange.xyz
+[0] Downloading 'http://friedorange.xyz/robots.txt' ...
+HTTP ERROR response 404 Not Found [http://friedorange.xyz/robots.txt]
+[0] Downloading 'http://friedorange.xyz' ...
+Saving 'friedorange.xyz/index.html'
+HTTP response 200 OK [http://friedorange.xyz]
+URI content encoding = 'utf-8' (set by document)
+Adding URL: https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap
+URL 'https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap' not followed (no host-spanning requested)
+Adding URL: http://friedorange.xyz/style.css
+Adding URL: http://friedorange.xyz/images/favicon.png
+Adding URL: http://friedorange.xyz/images/quikscript.png
+[1] Downloading 'http://friedorange.xyz/style.css' ...
+Adding URL: http://friedorange.xyz/quikscript/intro.html
+[0] Downloading 'http://friedorange.xyz/images/favicon.png' ...
+[3] Downloading 'http://friedorange.xyz/images/quikscript.png' ...
+[2] Downloading 'http://friedorange.xyz/quikscript/intro.html' ...
+Saving 'friedorange.xyz/quikscript/intro.html'
+HTTP response 200 OK [http://friedorange.xyz/quikscript/intro.html]
+URI content encoding = 'utf-8' (set by document)
+Adding URL: http://friedorange.xyz/quikscript/quikscript.css
+Adding URL: http://friedorange.xyz/quikscript/resources.html
+Adding URL: http://friedorange.xyz/quikscript/history.html
+Adding URL: http://friedorange.xyz/quikscript/typing.html
+Adding URL: http://friedorange.xyz/quikscript/myfonts.html
+Adding URL: http://friedorange.xyz/quikscript/otherfonts.html
+Adding URL: http://friedorange.xyz/quikscript/qsgl.html
+Adding URL: http://friedorange.xyz/quikscript/utilities.html
+Adding URL: http://friedorange.xyz/quikscript/images/qscomparison.png
+Adding URL: http://friedorange.xyz/quikscript/names.html
+Adding URL: https://en.wikipedia.org/wiki/International_Phonetic_Alphabet
+URL 'https://en.wikipedia.org/wiki/International_Phonetic_Alphabet' not followed (no host-spanning requested)
+Adding URL: http://friedorange.xyz/quikscript/files/QSAlphabetChart.pdf
+Adding URL: https://docs.microsoft.com/en-us/typography/develop/word-recognition
+URL 'https://docs.microsoft.com/en-us/typography/develop/word-recognition' not followed (no host-spanning requested)
+Adding URL: https://groups.io/g/QuikScript
+URL 'https://groups.io/g/QuikScript' not followed (no host-spanning requested)
+Adding URL: https://www.reddit.com/r/Quickscript/
+URL 'https://www.reddit.com/r/Quickscript/' not followed (no host-spanning requested)
+Adding URL: https://www.quikscript.net/
+URL 'https://www.quikscript.net/' not followed (no host-spanning requested)
+Adding URL: https://quikscript.neocities.org/quik.htm
+URL 'https://quikscript.neocities.org/quik.htm' not followed (no host-spanning requested)
+Adding URL: https://www.omniglot.com/writing/quikscript.htm
+URL 'https://www.omniglot.com/writing/quikscript.htm' not followed (no host-spanning requested)
+Adding URL: https://en.wikipedia.org/wiki/Quikscript
+URL 'https://en.wikipedia.org/wiki/Quikscript' not followed (no host-spanning requested)
+Adding URL: https://creativecommons.org/licenses/by/4.0/
+URL 'https://creativecommons.org/licenses/by/4.0/' not followed (no host-spanning requested)
+[2] Downloading 'http://friedorange.xyz/quikscript/quikscript.css' ...
+[4] Downloading 'http://friedorange.xyz/quikscript/resources.html' ...
+Saving 'friedorange.xyz/images/quikscript.png'
+HTTP response 200 OK [http://friedorange.xyz/images/quikscript.png]
+[3] Downloading 'http://friedorange.xyz/quikscript/history.html' ...
+Saving 'friedorange.xyz/images/favicon.png'
+HTTP response 200 OK [http://friedorange.xyz/images/favicon.png]
+[0] Downloading 'http://friedorange.xyz/quikscript/typing.html' ...
+Saving 'friedorange.xyz/style.css'
+HTTP response 200 OK [http://friedorange.xyz/style.css]
+Adding URL: http://friedorange.xyz/quikscript/webfonts/QSMatrixPrint.woff2
+Adding URL: http://friedorange.xyz/quikscript/webfonts/QSMatrixPrint.woff
+[1] Downloading 'http://friedorange.xyz/quikscript/myfonts.html' ...
+Saving 'friedorange.xyz/quikscript/resources.html'
+HTTP response 200 OK [http://friedorange.xyz/quikscript/resources.html]
+URI content encoding = 'utf-8' (set by document)
+Adding URL: http://friedorange.xyz/quikscript/images/androclescover.jpg
+Adding URL: http://friedorange.xyz/quikscript/images/androclescoverthumb.jpg
+Adding URL: http://friedorange.xyz/quikscript/files/AndroclesNotesOCR.pdf
+Adding URL: http://friedorange.xyz/quikscript/files/AndroclesAndTheLionOCR.pdf
+Adding URL: http://friedorange.xyz/quikscript/images/qsmanualcover.png
+Adding URL: http://friedorange.xyz/quikscript/files/QuikscriptManualOCR.pdf
+Adding URL: http://friedorange.xyz/quikscript/images/cfpbcover.jpg
+Adding URL: http://friedorange.xyz/quikscript/images/cfpbcoverthumb.jpg
+Adding URL: http://friedorange.xyz/quikscript/files/SecondShawAlphabetOCR.pdf
+Adding URL: http://friedorange.xyz/quikscript/files/QSAlphabetExamples.pdf
+Adding URL: http://friedorange.xyz/quikscript/files/KR_1969-12-18.pdf
+Adding URL: http://friedorange.xyz/quikscript/files/ShawCraft-1-19-2.zip
+Adding URL: http://friedorange.xyz/quikscript/images/shawcraft-01.png
+Adding URL: http://friedorange.xyz/quikscript/images/shawcraft-01-thumb.png
+Adding URL: http://friedorange.xyz/quikscript/images/shawcraft-02.png
+Adding URL: http://friedorange.xyz/quikscript/images/shawcraft-02-thumb.png
+Adding URL: http://friedorange.xyz/quikscript/images/shawcraft-03.png
+Adding URL: http://friedorange.xyz/quikscript/images/shawcraft-03-thumb.png
+Adding URL: http://friedorange.xyz/quikscript/images/shawcraft-04.png
+Adding URL: http://friedorange.xyz/quikscript/images/shawcraft-04-thumb.png
+Adding URL: http://friedorange.xyz/quikscript/images/shawcraft-05.png
+Adding URL: http://friedorange.xyz/quikscript/images/shawcraft-05-thumb.png
+Adding URL: http://friedorange.xyz/quikscript/images/shawcraft-06.png
+Adding URL: http://friedorange.xyz/quikscript/images/shawcraft-06-thumb.png
+Adding URL: http://friedorange.xyz/quikscript/images/shawcraft-07.png
+Adding URL: http://friedorange.xyz/quikscript/images/shawcraft-07-thumb.png
+Adding URL: http://friedorange.xyz/quikscript/images/shawcraft-08.png
+Adding URL: http://friedorange.xyz/quikscript/images/shawcraft-08-thumb.png
+Adding URL: http://friedorange.xyz/quikscript/images/shawcraft-09.png
+Adding URL: http://friedorange.xyz/quikscript/images/shawcraft-09-thumb.png
+Adding URL: http://friedorange.xyz/quikscript/images/shawcraft-10.png
+Adding URL: http://friedorange.xyz/quikscript/images/shawcraft-10-thumb.png
+[4] Downloading 'http://friedorange.xyz/quikscript/otherfonts.html' ...
+Saving 'friedorange.xyz/quikscript/history.html'
+HTTP response 200 OK [http://friedorange.xyz/quikscript/history.html]
+URI content encoding = 'utf-8' (set by document)
+Adding URL: https://cdm16471.contentdm.oclc.org/digital/collection/p15457coll1/id/105/
+URL 'https://cdm16471.contentdm.oclc.org/digital/collection/p15457coll1/id/105/' not followed (no host-spanning requested)
+Adding URL: http://friedorange.xyz/quikscript/shawpreface.html
+Adding URL: https://archive.org/details/in.ernet.dli.2015.54583
+URL 'https://archive.org/details/in.ernet.dli.2015.54583' not followed (no host-spanning requested)
+Adding URL: https://articles.c-a-s-t.com/@helloleo
+URL 'https://articles.c-a-s-t.com/@helloleo' not followed (no host-spanning requested)
+Adding URL: http://friedorange.xyz/quikscript/files/Sound-writing.pdf
+Adding URL: http://friedorange.xyz/quikscript/images/secondshawscreen.png
+Adding URL: http://friedorange.xyz/quikscript/files/Second Shaw.htm
+Adding URL: http://friedorange.xyz/quikscript/krbio.html
+[3] Downloading 'http://friedorange.xyz/quikscript/qsgl.html' ...
+Saving 'friedorange.xyz/quikscript/typing.html'
+HTTP response 200 OK [http://friedorange.xyz/quikscript/typing.html]
+URI content encoding = 'utf-8' (set by document)
+Adding URL: https://github.com/adiabatic/king-kong
+URL 'https://github.com/adiabatic/king-kong' not followed (no host-spanning requested)
+Adding URL: https://alternatescriptbureau.wordpress.com/2019/02/01/quikscript-geometric-a-sans-serif-font-for-the-quikscript-alphabet/
+URL 'https://alternatescriptbureau.wordpress.com/2019/02/01/quikscript-geometric-a-sans-serif-font-for-the-quikscript-alphabet/' not followed (no host-spanning requested)
+Adding URL: https://oztypewriter.blogspot.com/2014/04/history-of-shavian-keyboard-imperial.html
+URL 'https://oztypewriter.blogspot.com/2014/04/history-of-shavian-keyboard-imperial.html' not followed (no host-spanning requested)
+Adding URL: http://friedorange.xyz/quikscript/fokbd.html
+Adding URL: https://www.microsoft.com/en-us/download/details.aspx?id=22339
+URL 'https://www.microsoft.com/en-us/download/details.aspx?id=22339' not followed (no host-spanning requested)
+Adding URL: https://software.sil.org/ukelele/
+URL 'https://software.sil.org/ukelele/' not followed (no host-spanning requested)
+Adding URL: http://friedorange.xyz/quikscript/files/QSKeyboardWinUS.zip
+Adding URL: http://friedorange.xyz/quikscript/files/QSKeyboardWinUS.pdf
+Adding URL: http://friedorange.xyz/quikscript/files/QSKeyboardMacUS.zip
+Adding URL: http://friedorange.xyz/quikscript/files/QSKeyboardMacUS.pdf
+Adding URL: http://friedorange.xyz/quikscript/files/QSKeyboardLinuxUS.zip
+Adding URL: http://friedorange.xyz/quikscript/files/QSKeyboardWinUK.zip
+Adding URL: http://friedorange.xyz/quikscript/files/QSKeyboardWinUK.pdf
+Adding URL: http://friedorange.xyz/quikscript/files/QSKeyboardMacUK.zip
+Adding URL: http://friedorange.xyz/quikscript/files/QSKeyboardMacUK.pdf
+Adding URL: http://friedorange.xyz/quikscript/files/QSKeyboardLinuxUK.zip
+Adding URL: http://friedorange.xyz/quikscript/files/ShawKeyboardWinUS.zip
+Adding URL: http://friedorange.xyz/quikscript/files/ShawKeyboardWinUS.pdf
+Adding URL: http://friedorange.xyz/quikscript/files/ShawKeyboardMacUS.zip
+Adding URL: http://friedorange.xyz/quikscript/files/ShawKeyboardMacUS.pdf
+Adding URL: http://friedorange.xyz/quikscript/files/ShawKeyboardLinuxUS.zip
+Adding URL: http://friedorange.xyz/quikscript/files/ShawKeyboardWinUK.zip
+Adding URL: http://friedorange.xyz/quikscript/files/ShawKeyboardWinUK.pdf
+Adding URL: http://friedorange.xyz/quikscript/files/ShawKeyboardMacUK.zip
+Adding URL: http://friedorange.xyz/quikscript/files/ShawKeyboardMacUK.pdf
+Adding URL: http://friedorange.xyz/quikscript/files/ShawKeyboardLinuxUK.zip
+Adding URL: http://friedorange.xyz/quikscript/images/inputselectwin.png
+Adding URL: http://friedorange.xyz/quikscript/images/inputselectmac.png
+Adding URL: https://en.wikipedia.org/wiki/X-SAMPA
+URL 'https://en.wikipedia.org/wiki/X-SAMPA' not followed (no host-spanning requested)
+[0] Downloading 'http://friedorange.xyz/quikscript/utilities.html' ...
+Saving 'friedorange.xyz/quikscript/myfonts.html'
+HTTP response 200 OK [http://friedorange.xyz/quikscript/myfonts.html]
+URI content encoding = 'utf-8' (set by document)
+Adding URL: http://friedorange.xyz/quikscript/webfonts/QSMatrixScreen.woff2
+Adding URL: http://friedorange.xyz/quikscript/webfonts/QSMatrixScreen.woff
+Adding URL: http://friedorange.xyz/quikscript/webfonts/QSMatrixPrint.woff2
+Adding URL: http://friedorange.xyz/quikscript/webfonts/QSMatrixPrint.woff
+Adding URL: http://friedorange.xyz/quikscript/webfonts/QSMatrixLights.woff2
+Adding URL: http://friedorange.xyz/quikscript/webfonts/QSMatrixLights.woff
+Adding URL: http://friedorange.xyz/quikscript/webfonts/QSMatrixVideo.woff2
+Adding URL: http://friedorange.xyz/quikscript/webfonts/QSMatrixVideo.woff
+Adding URL: http://friedorange.xyz/quikscript/webfonts/QSSegment.woff2
+Adding URL: http://friedorange.xyz/quikscript/webfonts/QSSegment.woff
+Adding URL: https://fontforge.org/en-US/
+URL 'https://fontforge.org/en-US/' not followed (no host-spanning requested)
+Adding URL: https://scripts.sil.org/OFL
+URL 'https://scripts.sil.org/OFL' not followed (no host-spanning requested)
+Adding URL: http://friedorange.xyz/quikscript/myfonts/QSMatrix2.zip
+Adding URL: http://friedorange.xyz/quikscript/myfonts/QSMatrix.zip
+Adding URL: http://friedorange.xyz/quikscript/myfonts/QSVideo.zip
+Adding URL: http://friedorange.xyz/quikscript/myfonts/QSSegment.zip
+[1] Downloading 'http://friedorange.xyz/quikscript/images/qscomparison.png' ...
+Saving 'friedorange.xyz/quikscript/quikscript.css'
+HTTP response 200 OK [http://friedorange.xyz/quikscript/quikscript.css]
+Adding URL: http://friedorange.xyz/quikscript/webfonts/QSMatrixPrint.woff2
+Adding URL: http://friedorange.xyz/quikscript/webfonts/QSMatrixPrint.woff
+Adding URL: http://friedorange.xyz/quikscript/webfonts/QSManual.woff2
+Adding URL: http://friedorange.xyz/quikscript/webfonts/QSManual.woff
+Adding URL: http://friedorange.xyz/quikscript/webfonts/CCIconsUnicode.woff
+Adding URL: http://friedorange.xyz/quikscript/webfonts/CCIconsUnicode.woff2
+[2] Downloading 'http://friedorange.xyz/quikscript/names.html' ...
+Saving 'friedorange.xyz/quikscript/qsgl.html'
+HTTP response 200 OK [http://friedorange.xyz/quikscript/qsgl.html]
+URI content encoding = 'utf-8' (set by document)
+Adding URL: https://docs.microsoft.com/en-au/typography/opentype/spec/wgl4
+URL 'https://docs.microsoft.com/en-au/typography/opentype/spec/wgl4' not followed (no host-spanning requested)
+Adding URL: https://github.com/adobe-type-tools/adobe-latin-charsets
+URL 'https://github.com/adobe-type-tools/adobe-latin-charsets' not followed (no host-spanning requested)
+Adding URL: https://www.quikscript.net/csur/
+URL 'https://www.quikscript.net/csur/' not followed (no host-spanning requested)
+Adding URL: http://www.evertype.com/standards/csur/
+URL 'http://www.evertype.com/standards/csur/' not followed (no host-spanning requested)
+Adding URL: http://friedorange.xyz/quikscript/files/QSGL1.0.zip
+[3] Downloading 'http://friedorange.xyz/quikscript/files/QSAlphabetChart.pdf' ...
+Saving 'friedorange.xyz/quikscript/otherfonts.html'
+HTTP response 200 OK [http://friedorange.xyz/quikscript/otherfonts.html]
+URI content encoding = 'utf-8' (set by document)
+Adding URL: http://friedorange.xyz/quikscript/webfonts/thoth-unicode_qgl1.woff2
+Adding URL: http://friedorange.xyz/quikscript/webfonts/thoth-unicode_qgl1.woff
+Adding URL: http://friedorange.xyz/quikscript/webfonts/abbotsmortonexperiment_qgl1.woff2
+Adding URL: http://friedorange.xyz/quikscript/webfonts/abbotsmortonexperiment_qgl1.woff
+Adding URL: http://friedorange.xyz/quikscript/webfonts/quikscriptsans_qgl1.woff2
+Adding URL: http://friedorange.xyz/quikscript/webfonts/quikscriptsans_qgl1.woff
+Adding URL: http://friedorange.xyz/quikscript/webfonts/quikscriptgeometric_qgl1.woff2
+Adding URL: http://friedorange.xyz/quikscript/webfonts/quikscriptgeometric_qgl1.woff
+Adding URL: http://friedorange.xyz/quikscript/webfonts/secondshaw_qgl1.woff2
+Adding URL: http://friedorange.xyz/quikscript/webfonts/secondshaw_qgl1.woff
+Adding URL: http://friedorange.xyz/quikscript/webfonts/jerome1_qgl1.woff2
+Adding URL: http://friedorange.xyz/quikscript/webfonts/jerome1_qgl1.woff
+Adding URL: http://friedorange.xyz/quikscript/webfonts/jerome_qgl1.woff2
+Adding URL: http://friedorange.xyz/quikscript/webfonts/jerome_qgl1.woff
+Adding URL: http://friedorange.xyz/quikscript/webfonts/junior_qgl1.woff2
+Adding URL: http://friedorange.xyz/quikscript/webfonts/junior_qgl1.woff
+Adding URL: http://friedorange.xyz/quikscript/webfonts/kwikskript_qgl1.woff2
+Adding URL: http://friedorange.xyz/quikscript/webfonts/kwikskript_qgl1.woff
+Adding URL: http://friedorange.xyz/quikscript/webfonts/kingsley_qgl1.woff2
+Adding URL: http://friedorange.xyz/quikscript/webfonts/kingsley_qgl1.woff
+Adding URL: http://friedorange.xyz/quikscript/webfonts/kingplus_qgl1.woff2
+Adding URL: http://friedorange.xyz/quikscript/webfonts/kingplus_qgl1.woff
+Adding URL: http://friedorange.xyz/quikscript/webfonts/kingplusmonospace_qgl1.woff2
+Adding URL: http://friedorange.xyz/quikscript/webfonts/kingplusmonospace_qgl1.woff
+Adding URL: http://friedorange.xyz/quikscript/webfonts/jeremy_qgl1.woff2
+Adding URL: http://friedorange.xyz/quikscript/webfonts/jeremy_qgl1.woff
+Adding URL: http://friedorange.xyz/quikscript/webfonts/quickscript_qgl1.woff2
+Adding URL: http://friedorange.xyz/quikscript/webfonts/quickscript_qgl1.woff
+Adding URL: http://friedorange.xyz/quikscript/webfonts/quickscriptgeorgian_qgl1.woff2
+Adding URL: http://friedorange.xyz/quikscript/webfonts/quickscriptgeorgian_qgl1.woff
+Adding URL: http://friedorange.xyz/quikscript/webfonts/suave_qgl1.woff2
+Adding URL: http://friedorange.xyz/quikscript/webfonts/suave_qgl1.woff
+Adding URL: http://friedorange.xyz/quikscript/otherfonts/Thoth.zip
+Adding URL: http://friedorange.xyz/quikscript/otherfonts/AbbotsMortonExperiment.zip
+Adding URL: http://friedorange.xyz/quikscript/otherfonts/QuikscriptSans.zip
+Adding URL: http://friedorange.xyz/quikscript/otherfonts/SecondShaw.zip
+Adding URL: http://friedorange.xyz/quikscript/otherfonts/JeromeBeta.zip
+Adding URL: http://friedorange.xyz/quikscript/otherfonts/Jerome.zip
+Adding URL: http://friedorange.xyz/quikscript/otherfonts/Junior.zip
+Adding URL: http://friedorange.xyz/quikscript/otherfonts/Kwikskript.zip
+Adding URL: http://friedorange.xyz/quikscript/otherfonts/Kingsley.zip
+Adding URL: http://friedorange.xyz/quikscript/otherfonts/KingPlus.zip
+Adding URL: http://friedorange.xyz/quikscript/otherfonts/KingPlusMonospace.zip
+Adding URL: http://friedorange.xyz/quikscript/otherfonts/Jeremy.zip
+Adding URL: http://friedorange.xyz/quikscript/otherfonts/Quickscript.zip
+Adding URL: http://friedorange.xyz/quikscript/otherfonts/QuickscriptGeorgian.zip
+Adding URL: http://friedorange.xyz/quikscript/otherfonts/Suave.zip
+Adding URL: http://friedorange.xyz/quikscript/otherfonts/QuikscriptGeometric.zip
+[4] Downloading 'http://friedorange.xyz/quikscript/webfonts/QSMatrixPrint.woff2' ...
+Saving 'friedorange.xyz/quikscript/names.html'
+HTTP response 200 OK [http://friedorange.xyz/quikscript/names.html]
+URI content encoding = 'utf-8' (set by document)
+Adding URL: http://friedorange.xyz/quikscript/images/kralphabets.jpg
+Adding URL: https://articles.c-a-s-t.com/shavian-2-3-the-development-9cba31f9bc5a
+URL 'https://articles.c-a-s-t.com/shavian-2-3-the-development-9cba31f9bc5a' not followed (no host-spanning requested)
+[2] Downloading 'http://friedorange.xyz/quikscript/webfonts/QSMatrixPrint.woff' ...
+Saving 'friedorange.xyz/quikscript/images/qscomparison.png'
+HTTP response 200 OK [http://friedorange.xyz/quikscript/images/qscomparison.png]
+[1] Downloading 'http://friedorange.xyz/quikscript/images/androclescover.jpg' ...
+Saving 'friedorange.xyz/quikscript/utilities.html'
+HTTP response 200 OK [http://friedorange.xyz/quikscript/utilities.html]
+URI content encoding = 'utf-8' (set by document)
+Adding URL: http://friedorange.xyz/quikscript/qstc.html
+Adding URL: http://friedorange.xyz/quikscript/typing.html#encodings
+[0] Downloading 'http://friedorange.xyz/quikscript/images/androclescoverthumb.jpg' ...
+Saving 'friedorange.xyz/quikscript/files/QSAlphabetChart.pdf'
+Saving 'friedorange.xyz/quikscript/webfonts/QSMatrixPrint.woff'
+HTTP response 200 OK [http://friedorange.xyz/quikscript/webfonts/QSMatrixPrint.woff]
+[2] Downloading 'http://friedorange.xyz/quikscript/files/AndroclesNotesOCR.pdf' ...
+Saving 'friedorange.xyz/quikscript/webfonts/QSMatrixPrint.woff2'
+HTTP response 200 OK [http://friedorange.xyz/quikscript/webfonts/QSMatrixPrint.woff2]
+[4] Downloading 'http://friedorange.xyz/quikscript/files/AndroclesAndTheLionOCR.pdf' ...
+Saving 'friedorange.xyz/quikscript/images/androclescoverthumb.jpg'
+Saving 'friedorange.xyz/quikscript/images/androclescover.jpg'
+Saving 'friedorange.xyz/quikscript/files/AndroclesNotesOCR.pdf'
+Saving 'friedorange.xyz/quikscript/files/AndroclesAndTheLionOCR.pdf'
+HTTP response 200 OK [http://friedorange.xyz/quikscript/images/androclescoverthumb.jpg]
+[0] Downloading 'http://friedorange.xyz/quikscript/images/qsmanualcover.png' ...
+HTTP response 200 OK [http://friedorange.xyz/quikscript/files/QSAlphabetChart.pdf]
+[3] Downloading 'http://friedorange.xyz/quikscript/files/QuikscriptManualOCR.pdf' ...
+Saving 'friedorange.xyz/quikscript/images/qsmanualcover.png'
+Saving 'friedorange.xyz/quikscript/files/QuikscriptManualOCR.pdf'
+HTTP response 200 OK [http://friedorange.xyz/quikscript/images/androclescover.jpg]
+[1] Downloading 'http://friedorange.xyz/quikscript/images/cfpbcover.jpg' ...
+HTTP response 200 OK [http://friedorange.xyz/quikscript/images/qsmanualcover.png]
+[0] Downloading 'http://friedorange.xyz/quikscript/images/cfpbcoverthumb.jpg' ...
+Saving 'friedorange.xyz/quikscript/images/cfpbcover.jpg'
+Saving 'friedorange.xyz/quikscript/images/cfpbcoverthumb.jpg'
+HTTP response 200 OK [http://friedorange.xyz/quikscript/files/AndroclesNotesOCR.pdf]
+[2] Downloading 'http://friedorange.xyz/quikscript/files/SecondShawAlphabetOCR.pdf' ...
+HTTP response 200 OK [http://friedorange.xyz/quikscript/images/cfpbcoverthumb.jpg]
+[0] Downloading 'http://friedorange.xyz/quikscript/files/QSAlphabetExamples.pdf' ...
+Saving 'friedorange.xyz/quikscript/files/SecondShawAlphabetOCR.pdf'
+Saving 'friedorange.xyz/quikscript/files/QSAlphabetExamples.pdf'
+HTTP response 200 OK [http://friedorange.xyz/quikscript/images/cfpbcover.jpg]
+[1] Downloading 'http://friedorange.xyz/quikscript/files/KR_1969-12-18.pdf' ...
+HTTP response 200 OK [http://friedorange.xyz/quikscript/files/QSAlphabetExamples.pdf]
+[0] Downloading 'http://friedorange.xyz/quikscript/files/ShawCraft-1-19-2.zip' ...
+Saving 'friedorange.xyz/quikscript/files/KR_1969-12-18.pdf'
+Saving 'friedorange.xyz/quikscript/files/ShawCraft-1-19-2.zip'
+HTTP response 200 OK [http://friedorange.xyz/quikscript/files/QuikscriptManualOCR.pdf]
+[3] Downloading 'http://friedorange.xyz/quikscript/images/shawcraft-01.png' ...
+HTTP response 200 OK [http://friedorange.xyz/quikscript/files/ShawCraft-1-19-2.zip]
+[0] Downloading 'http://friedorange.xyz/quikscript/images/shawcraft-01-thumb.png' ...
+HTTP response 200 OK [http://friedorange.xyz/quikscript/files/KR_1969-12-18.pdf]
+[1] Downloading 'http://friedorange.xyz/quikscript/images/shawcraft-02.png' ...
+Saving 'friedorange.xyz/quikscript/images/shawcraft-01.png'
+Saving 'friedorange.xyz/quikscript/images/shawcraft-01-thumb.png'
+HTTP response 200 OK [http://friedorange.xyz/quikscript/images/shawcraft-01-thumb.png]
+[0] Downloading 'http://friedorange.xyz/quikscript/images/shawcraft-02-thumb.png' ...
+Saving 'friedorange.xyz/quikscript/images/shawcraft-02.png'
+HTTP response 200 OK [http://friedorange.xyz/quikscript/images/shawcraft-02.png]
+[1] Downloading 'http://friedorange.xyz/quikscript/images/shawcraft-03.png' ...
+HTTP response 200 OK [http://friedorange.xyz/quikscript/images/shawcraft-01.png]
+[3] Downloading 'http://friedorange.xyz/quikscript/images/shawcraft-03-thumb.png' ...
+Saving 'friedorange.xyz/quikscript/images/shawcraft-02-thumb.png'
+HTTP response 200 OK [http://friedorange.xyz/quikscript/images/shawcraft-02-thumb.png]
+[0] Downloading 'http://friedorange.xyz/quikscript/images/shawcraft-04.png' ...
+Saving 'friedorange.xyz/quikscript/images/shawcraft-03.png'
+Saving 'friedorange.xyz/quikscript/images/shawcraft-03-thumb.png'
+Saving 'friedorange.xyz/quikscript/images/shawcraft-04.png'
+HTTP response 200 OK [http://friedorange.xyz/quikscript/files/SecondShawAlphabetOCR.pdf]
+[2] Downloading 'http://friedorange.xyz/quikscript/images/shawcraft-04-thumb.png' ...
+HTTP response 200 OK [http://friedorange.xyz/quikscript/images/shawcraft-03-thumb.png]
+HTTP response 200 OK [http://friedorange.xyz/quikscript/images/shawcraft-03.png]
+[1] Downloading 'http://friedorange.xyz/quikscript/images/shawcraft-05.png' ...
+[3] Downloading 'http://friedorange.xyz/quikscript/images/shawcraft-05-thumb.png' ...
+HTTP response 200 OK [http://friedorange.xyz/quikscript/images/shawcraft-04.png]
+[0] Downloading 'http://friedorange.xyz/quikscript/images/shawcraft-06.png' ...
+Saving 'friedorange.xyz/quikscript/images/shawcraft-05-thumb.png'
+Saving 'friedorange.xyz/quikscript/images/shawcraft-04-thumb.png'
+HTTP response 200 OK [http://friedorange.xyz/quikscript/images/shawcraft-04-thumb.png]
+[2] Downloading 'http://friedorange.xyz/quikscript/images/shawcraft-06-thumb.png' ...
+Saving 'friedorange.xyz/quikscript/images/shawcraft-05.png'
+Saving 'friedorange.xyz/quikscript/images/shawcraft-06.png'
+HTTP response 200 OK [http://friedorange.xyz/quikscript/images/shawcraft-05-thumb.png]
+[3] Downloading 'http://friedorange.xyz/quikscript/images/shawcraft-07.png' ...
+Saving 'friedorange.xyz/quikscript/images/shawcraft-06-thumb.png'
+HTTP response 200 OK [http://friedorange.xyz/quikscript/images/shawcraft-05.png]
+[1] Downloading 'http://friedorange.xyz/quikscript/images/shawcraft-07-thumb.png' ...
+Saving 'friedorange.xyz/quikscript/images/shawcraft-07.png'
+HTTP response 200 OK [http://friedorange.xyz/quikscript/images/shawcraft-07.png]
+[3] Downloading 'http://friedorange.xyz/quikscript/images/shawcraft-08.png' ...
+HTTP response 200 OK [http://friedorange.xyz/quikscript/images/shawcraft-06-thumb.png]
+[2] Downloading 'http://friedorange.xyz/quikscript/images/shawcraft-08-thumb.png' ...
+HTTP response 200 OK [http://friedorange.xyz/quikscript/images/shawcraft-06.png]
+[0] Downloading 'http://friedorange.xyz/quikscript/images/shawcraft-09.png' ...
+Saving 'friedorange.xyz/quikscript/images/shawcraft-08.png'
+Saving 'friedorange.xyz/quikscript/images/shawcraft-07-thumb.png'
+HTTP response 200 OK [http://friedorange.xyz/quikscript/images/shawcraft-07-thumb.png]
+[1] Downloading 'http://friedorange.xyz/quikscript/images/shawcraft-09-thumb.png' ...
+Saving 'friedorange.xyz/quikscript/images/shawcraft-08-thumb.png'
+HTTP response 200 OK [http://friedorange.xyz/quikscript/images/shawcraft-08.png]
+[3] Downloading 'http://friedorange.xyz/quikscript/images/shawcraft-10.png' ...
+HTTP response 200 OK [http://friedorange.xyz/quikscript/images/shawcraft-08-thumb.png]
+[2] Downloading 'http://friedorange.xyz/quikscript/images/shawcraft-10-thumb.png' ...
+Saving 'friedorange.xyz/quikscript/images/shawcraft-09.png'
+Saving 'friedorange.xyz/quikscript/images/shawcraft-09-thumb.png'
+HTTP response 200 OK [http://friedorange.xyz/quikscript/images/shawcraft-09.png]
+[0] Downloading 'http://friedorange.xyz/quikscript/shawpreface.html' ...
+HTTP response 200 OK [http://friedorange.xyz/quikscript/images/shawcraft-09-thumb.png]
+[1] Downloading 'http://friedorange.xyz/quikscript/files/Sound-writing.pdf' ...
+Saving 'friedorange.xyz/quikscript/images/shawcraft-10.png'
+Saving 'friedorange.xyz/quikscript/images/shawcraft-10-thumb.png'
+HTTP response 200 OK [http://friedorange.xyz/quikscript/images/shawcraft-10-thumb.png]
+[2] Downloading 'http://friedorange.xyz/quikscript/images/secondshawscreen.png' ...
+Saving 'friedorange.xyz/quikscript/shawpreface.html'
+Saving 'friedorange.xyz/quikscript/files/Sound-writing.pdf'
+HTTP response 200 OK [http://friedorange.xyz/quikscript/shawpreface.html]
+URI content encoding = 'utf-8' (set by document)
+[0] Downloading 'http://friedorange.xyz/quikscript/files/Second Shaw.htm' ...
+HTTP response 200 OK [http://friedorange.xyz/quikscript/images/shawcraft-10.png]
+[3] Downloading 'http://friedorange.xyz/quikscript/krbio.html' ...
+Saving 'friedorange.xyz/quikscript/images/secondshawscreen.png'
+Saving 'friedorange.xyz/quikscript/krbio.html'
+HTTP response 200 OK [http://friedorange.xyz/quikscript/krbio.html]
+URI content encoding = 'utf-8' (set by document)
+[3] Downloading 'http://friedorange.xyz/quikscript/fokbd.html' ...
+HTTP response 200 OK [http://friedorange.xyz/quikscript/images/secondshawscreen.png]
+[2] Downloading 'http://friedorange.xyz/quikscript/files/QSKeyboardWinUS.zip' ...
+HTTP response 200 OK [http://friedorange.xyz/quikscript/files/Sound-writing.pdf]
+[1] Downloading 'http://friedorange.xyz/quikscript/files/QSKeyboardWinUS.pdf' ...
+Saving 'friedorange.xyz/quikscript/fokbd.html'
+HTTP response 200 OK [http://friedorange.xyz/quikscript/fokbd.html]
+URI content encoding = 'utf-8' (set by document)
+[3] Downloading 'http://friedorange.xyz/quikscript/files/QSKeyboardMacUS.zip' ...
+Saving 'friedorange.xyz/quikscript/files/Second Shaw.htm'
+HTTP response 200 OK [http://friedorange.xyz/quikscript/files/Second Shaw.htm]
+URI content encoding = 'ISO-8859-1' (set by document)
+Adding URL: http://friedorange.xyz/quikscript/webfonts/ghoti.woff2
+Adding URL: http://friedorange.xyz/quikscript/webfonts/ghoti.woff
+Adding URL: http://friedorange.xyz/quikscript/webfonts/jerome.woff2
+Adding URL: http://friedorange.xyz/quikscript/webfonts/jerome.woff
+[0] Downloading 'http://friedorange.xyz/quikscript/files/QSKeyboardMacUS.pdf' ...
+Saving 'friedorange.xyz/quikscript/files/QSKeyboardWinUS.zip'
+Saving 'friedorange.xyz/quikscript/files/QSKeyboardMacUS.zip'
+HTTP response 200 OK [http://friedorange.xyz/quikscript/files/QSKeyboardMacUS.zip]
+[3] Downloading 'http://friedorange.xyz/quikscript/files/QSKeyboardLinuxUS.zip' ...
+Saving 'friedorange.xyz/quikscript/files/QSKeyboardWinUS.pdf'
+HTTP response 200 OK [http://friedorange.xyz/quikscript/files/QSKeyboardWinUS.pdf]
+[1] Downloading 'http://friedorange.xyz/quikscript/files/QSKeyboardWinUK.zip' ...
+Saving 'friedorange.xyz/quikscript/files/QSKeyboardMacUS.pdf'
+HTTP response 200 OK [http://friedorange.xyz/quikscript/files/QSKeyboardMacUS.pdf]
+[0] Downloading 'http://friedorange.xyz/quikscript/files/QSKeyboardWinUK.pdf' ...
+HTTP response 200 OK [http://friedorange.xyz/quikscript/files/QSKeyboardWinUS.zip]
+[2] Downloading 'http://friedorange.xyz/quikscript/files/QSKeyboardMacUK.zip' ...
+Saving 'friedorange.xyz/quikscript/files/QSKeyboardWinUK.zip'
+Saving 'friedorange.xyz/quikscript/files/QSKeyboardWinUK.pdf'
+HTTP response 200 OK [http://friedorange.xyz/quikscript/files/QSKeyboardWinUK.pdf]
+[0] Downloading 'http://friedorange.xyz/quikscript/files/QSKeyboardMacUK.pdf' ...
+Saving 'friedorange.xyz/quikscript/files/QSKeyboardMacUK.zip'
+HTTP response 200 OK [http://friedorange.xyz/quikscript/files/QSKeyboardMacUK.zip]
+[2] Downloading 'http://friedorange.xyz/quikscript/files/QSKeyboardLinuxUK.zip' ...
+Saving 'friedorange.xyz/quikscript/files/QSKeyboardLinuxUS.zip'
+HTTP response 200 OK [http://friedorange.xyz/quikscript/files/QSKeyboardLinuxUS.zip]
+[3] Downloading 'http://friedorange.xyz/quikscript/files/ShawKeyboardWinUS.zip' ...
+Saving 'friedorange.xyz/quikscript/files/QSKeyboardMacUK.pdf'
+HTTP response 200 OK [http://friedorange.xyz/quikscript/files/QSKeyboardMacUK.pdf]
+HTTP response 200 OK [http://friedorange.xyz/quikscript/files/QSKeyboardWinUK.zip]
+[0] Downloading 'http://friedorange.xyz/quikscript/files/ShawKeyboardWinUS.pdf' ...
+[1] Downloading 'http://friedorange.xyz/quikscript/files/ShawKeyboardMacUS.zip' ...
+Saving 'friedorange.xyz/quikscript/files/ShawKeyboardMacUS.zip'
+HTTP response 200 OK [http://friedorange.xyz/quikscript/files/ShawKeyboardMacUS.zip]
+[1] Downloading 'http://friedorange.xyz/quikscript/files/ShawKeyboardMacUS.pdf' ...
+Saving 'friedorange.xyz/quikscript/files/ShawKeyboardWinUS.pdf'
+HTTP response 200 OK [http://friedorange.xyz/quikscript/files/ShawKeyboardWinUS.pdf]
+[0] Downloading 'http://friedorange.xyz/quikscript/files/ShawKeyboardLinuxUS.zip' ...
+Saving 'friedorange.xyz/quikscript/files/QSKeyboardLinuxUK.zip'
+HTTP response 200 OK [http://friedorange.xyz/quikscript/files/QSKeyboardLinuxUK.zip]
+[2] Downloading 'http://friedorange.xyz/quikscript/files/ShawKeyboardWinUK.zip' ...
+Saving 'friedorange.xyz/quikscript/files/ShawKeyboardMacUS.pdf'
+Saving 'friedorange.xyz/quikscript/files/ShawKeyboardWinUS.zip'
+Saving 'friedorange.xyz/quikscript/files/ShawKeyboardLinuxUS.zip'
+HTTP response 200 OK [http://friedorange.xyz/quikscript/files/ShawKeyboardMacUS.pdf]
+[1] Downloading 'http://friedorange.xyz/quikscript/files/ShawKeyboardWinUK.pdf' ...
+HTTP response 200 OK [http://friedorange.xyz/quikscript/files/ShawKeyboardLinuxUS.zip]
+[0] Downloading 'http://friedorange.xyz/quikscript/files/ShawKeyboardMacUK.zip' ...
+Saving 'friedorange.xyz/quikscript/files/ShawKeyboardWinUK.zip'
+Saving 'friedorange.xyz/quikscript/files/ShawKeyboardWinUK.pdf'
+Saving 'friedorange.xyz/quikscript/files/ShawKeyboardMacUK.zip'
+HTTP response 200 OK [http://friedorange.xyz/quikscript/files/ShawKeyboardMacUK.zip]
+[0] Downloading 'http://friedorange.xyz/quikscript/files/ShawKeyboardMacUK.pdf' ...
+HTTP response 200 OK [http://friedorange.xyz/quikscript/files/ShawKeyboardWinUK.pdf]
+[1] Downloading 'http://friedorange.xyz/quikscript/files/ShawKeyboardLinuxUK.zip' ...
+HTTP response 200 OK [http://friedorange.xyz/quikscript/files/ShawKeyboardWinUS.zip]
+[3] Downloading 'http://friedorange.xyz/quikscript/images/inputselectwin.png' ...
+HTTP response 200 OK [http://friedorange.xyz/quikscript/files/ShawKeyboardWinUK.zip]
+[2] Downloading 'http://friedorange.xyz/quikscript/images/inputselectmac.png' ...
+Saving 'friedorange.xyz/quikscript/files/ShawKeyboardMacUK.pdf'
+HTTP response 200 OK [http://friedorange.xyz/quikscript/files/ShawKeyboardMacUK.pdf]
+[0] Downloading 'http://friedorange.xyz/quikscript/webfonts/QSMatrixScreen.woff2' ...
+Saving 'friedorange.xyz/quikscript/files/ShawKeyboardLinuxUK.zip'
+HTTP response 200 OK [http://friedorange.xyz/quikscript/files/ShawKeyboardLinuxUK.zip]
+[1] Downloading 'http://friedorange.xyz/quikscript/webfonts/QSMatrixScreen.woff' ...
+Saving 'friedorange.xyz/quikscript/images/inputselectmac.png'
+HTTP response 200 OK [http://friedorange.xyz/quikscript/images/inputselectmac.png]
+[2] Downloading 'http://friedorange.xyz/quikscript/webfonts/QSMatrixLights.woff2' ...
+Saving 'friedorange.xyz/quikscript/images/inputselectwin.png'
+HTTP response 200 OK [http://friedorange.xyz/quikscript/images/inputselectwin.png]
+[3] Downloading 'http://friedorange.xyz/quikscript/webfonts/QSMatrixLights.woff' ...
+HTTP response 200 OK [http://friedorange.xyz/quikscript/files/AndroclesAndTheLionOCR.pdf]
+[4] Downloading 'http://friedorange.xyz/quikscript/webfonts/QSMatrixVideo.woff2' ...
+Saving 'friedorange.xyz/quikscript/webfonts/QSMatrixScreen.woff2'
+HTTP response 200 OK [http://friedorange.xyz/quikscript/webfonts/QSMatrixScreen.woff2]
+[0] Downloading 'http://friedorange.xyz/quikscript/webfonts/QSMatrixVideo.woff' ...
+Saving 'friedorange.xyz/quikscript/webfonts/QSMatrixScreen.woff'
+HTTP response 200 OK [http://friedorange.xyz/quikscript/webfonts/QSMatrixScreen.woff]
+[1] Downloading 'http://friedorange.xyz/quikscript/webfonts/QSSegment.woff2' ...
+Saving 'friedorange.xyz/quikscript/webfonts/QSMatrixLights.woff2'
+HTTP response 200 OK [http://friedorange.xyz/quikscript/webfonts/QSMatrixLights.woff2]
+[2] Downloading 'http://friedorange.xyz/quikscript/webfonts/QSSegment.woff' ...
+Saving 'friedorange.xyz/quikscript/webfonts/QSMatrixLights.woff'
+HTTP response 200 OK [http://friedorange.xyz/quikscript/webfonts/QSMatrixLights.woff]
+[3] Downloading 'http://friedorange.xyz/quikscript/myfonts/QSMatrix2.zip' ...
+Saving 'friedorange.xyz/quikscript/webfonts/QSMatrixVideo.woff2'
+HTTP response 200 OK [http://friedorange.xyz/quikscript/webfonts/QSMatrixVideo.woff2]
+[4] Downloading 'http://friedorange.xyz/quikscript/myfonts/QSMatrix.zip' ...
+Saving 'friedorange.xyz/quikscript/webfonts/QSMatrixVideo.woff'
+HTTP response 200 OK [http://friedorange.xyz/quikscript/webfonts/QSMatrixVideo.woff]
+[0] Downloading 'http://friedorange.xyz/quikscript/myfonts/QSVideo.zip' ...
+Saving 'friedorange.xyz/quikscript/webfonts/QSSegment.woff2'
+HTTP response 200 OK [http://friedorange.xyz/quikscript/webfonts/QSSegment.woff2]
+[1] Downloading 'http://friedorange.xyz/quikscript/myfonts/QSSegment.zip' ...
+Saving 'friedorange.xyz/quikscript/webfonts/QSSegment.woff'
+HTTP response 200 OK [http://friedorange.xyz/quikscript/webfonts/QSSegment.woff]
+[2] Downloading 'http://friedorange.xyz/quikscript/webfonts/QSManual.woff2' ...
+Saving 'friedorange.xyz/quikscript/myfonts/QSMatrix2.zip'
+Saving 'friedorange.xyz/quikscript/myfonts/QSMatrix.zip'
+Saving 'friedorange.xyz/quikscript/myfonts/QSVideo.zip'
+Saving 'friedorange.xyz/quikscript/myfonts/QSSegment.zip'
+HTTP response 200 OK [http://friedorange.xyz/quikscript/myfonts/QSSegment.zip]
+[1] Downloading 'http://friedorange.xyz/quikscript/webfonts/QSManual.woff' ...
+HTTP response 200 OK [http://friedorange.xyz/quikscript/myfonts/QSVideo.zip]
+[0] Downloading 'http://friedorange.xyz/quikscript/webfonts/CCIconsUnicode.woff' ...
+HTTP response 200 OK [http://friedorange.xyz/quikscript/myfonts/QSMatrix2.zip]
+[3] Downloading 'http://friedorange.xyz/quikscript/webfonts/CCIconsUnicode.woff2' ...
+Saving 'friedorange.xyz/quikscript/webfonts/QSManual.woff2'
+HTTP response 200 OK [http://friedorange.xyz/quikscript/webfonts/QSManual.woff2]
+[2] Downloading 'http://friedorange.xyz/quikscript/files/QSGL1.0.zip' ...
+HTTP response 200 OK [http://friedorange.xyz/quikscript/myfonts/QSMatrix.zip]
+[4] Downloading 'http://friedorange.xyz/quikscript/webfonts/thoth-unicode_qgl1.woff2' ...
+Saving 'friedorange.xyz/quikscript/webfonts/QSManual.woff'
+Saving 'friedorange.xyz/quikscript/webfonts/CCIconsUnicode.woff'
+HTTP response 200 OK [http://friedorange.xyz/quikscript/webfonts/CCIconsUnicode.woff]
+[0] Downloading 'http://friedorange.xyz/quikscript/webfonts/thoth-unicode_qgl1.woff' ...
+Saving 'friedorange.xyz/quikscript/webfonts/CCIconsUnicode.woff2'
+HTTP response 200 OK [http://friedorange.xyz/quikscript/webfonts/CCIconsUnicode.woff2]
+[3] Downloading 'http://friedorange.xyz/quikscript/webfonts/abbotsmortonexperiment_qgl1.woff2' ...
+HTTP response 200 OK [http://friedorange.xyz/quikscript/webfonts/QSManual.woff]
+[1] Downloading 'http://friedorange.xyz/quikscript/webfonts/abbotsmortonexperiment_qgl1.woff' ...
+Saving 'friedorange.xyz/quikscript/files/QSGL1.0.zip'
+Saving 'friedorange.xyz/quikscript/webfonts/thoth-unicode_qgl1.woff2'
+HTTP response 200 OK [http://friedorange.xyz/quikscript/webfonts/thoth-unicode_qgl1.woff2]
+[4] Downloading 'http://friedorange.xyz/quikscript/webfonts/quikscriptsans_qgl1.woff2' ...
+HTTP response 200 OK [http://friedorange.xyz/quikscript/files/QSGL1.0.zip]
+[2] Downloading 'http://friedorange.xyz/quikscript/webfonts/quikscriptsans_qgl1.woff' ...
+Saving 'friedorange.xyz/quikscript/webfonts/abbotsmortonexperiment_qgl1.woff2'
+HTTP response 200 OK [http://friedorange.xyz/quikscript/webfonts/abbotsmortonexperiment_qgl1.woff2]
+[3] Downloading 'http://friedorange.xyz/quikscript/webfonts/quikscriptgeometric_qgl1.woff2' ...
+Saving 'friedorange.xyz/quikscript/webfonts/thoth-unicode_qgl1.woff'
+HTTP response 200 OK [http://friedorange.xyz/quikscript/webfonts/thoth-unicode_qgl1.woff]
+[0] Downloading 'http://friedorange.xyz/quikscript/webfonts/quikscriptgeometric_qgl1.woff' ...
+Saving 'friedorange.xyz/quikscript/webfonts/quikscriptsans_qgl1.woff2'
+HTTP response 200 OK [http://friedorange.xyz/quikscript/webfonts/quikscriptsans_qgl1.woff2]
+[4] Downloading 'http://friedorange.xyz/quikscript/webfonts/secondshaw_qgl1.woff2' ...
+Saving 'friedorange.xyz/quikscript/webfonts/quikscriptsans_qgl1.woff'
+HTTP response 200 OK [http://friedorange.xyz/quikscript/webfonts/quikscriptsans_qgl1.woff]
+[2] Downloading 'http://friedorange.xyz/quikscript/webfonts/secondshaw_qgl1.woff' ...
+Saving 'friedorange.xyz/quikscript/webfonts/quikscriptgeometric_qgl1.woff2'
+HTTP response 200 OK [http://friedorange.xyz/quikscript/webfonts/quikscriptgeometric_qgl1.woff2]
+[3] Downloading 'http://friedorange.xyz/quikscript/webfonts/jerome1_qgl1.woff2' ...
+Saving 'friedorange.xyz/quikscript/webfonts/quikscriptgeometric_qgl1.woff'
+HTTP response 200 OK [http://friedorange.xyz/quikscript/webfonts/quikscriptgeometric_qgl1.woff]
+[0] Downloading 'http://friedorange.xyz/quikscript/webfonts/jerome1_qgl1.woff' ...
+Saving 'friedorange.xyz/quikscript/webfonts/secondshaw_qgl1.woff'
+HTTP response 200 OK [http://friedorange.xyz/quikscript/webfonts/secondshaw_qgl1.woff]
+[2] Downloading 'http://friedorange.xyz/quikscript/webfonts/jerome_qgl1.woff2' ...
+Saving 'friedorange.xyz/quikscript/webfonts/secondshaw_qgl1.woff2'
+HTTP response 200 OK [http://friedorange.xyz/quikscript/webfonts/secondshaw_qgl1.woff2]
+[4] Downloading 'http://friedorange.xyz/quikscript/webfonts/jerome_qgl1.woff' ...
+Saving 'friedorange.xyz/quikscript/webfonts/abbotsmortonexperiment_qgl1.woff'
+HTTP response 200 OK [http://friedorange.xyz/quikscript/webfonts/abbotsmortonexperiment_qgl1.woff]
+[1] Downloading 'http://friedorange.xyz/quikscript/webfonts/junior_qgl1.woff2' ...
+Saving 'friedorange.xyz/quikscript/webfonts/jerome1_qgl1.woff2'
+HTTP response 200 OK [http://friedorange.xyz/quikscript/webfonts/jerome1_qgl1.woff2]
+[3] Downloading 'http://friedorange.xyz/quikscript/webfonts/junior_qgl1.woff' ...
+Saving 'friedorange.xyz/quikscript/webfonts/jerome1_qgl1.woff'
+HTTP response 200 OK [http://friedorange.xyz/quikscript/webfonts/jerome1_qgl1.woff]
+[0] Downloading 'http://friedorange.xyz/quikscript/webfonts/kwikskript_qgl1.woff2' ...
+Saving 'friedorange.xyz/quikscript/webfonts/jerome_qgl1.woff'
+Saving 'friedorange.xyz/quikscript/webfonts/jerome_qgl1.woff2'
+HTTP response 200 OK [http://friedorange.xyz/quikscript/webfonts/jerome_qgl1.woff2]
+[2] Downloading 'http://friedorange.xyz/quikscript/webfonts/kwikskript_qgl1.woff' ...
+HTTP response 200 OK [http://friedorange.xyz/quikscript/webfonts/jerome_qgl1.woff]
+[4] Downloading 'http://friedorange.xyz/quikscript/webfonts/kingsley_qgl1.woff2' ...
+Saving 'friedorange.xyz/quikscript/webfonts/junior_qgl1.woff2'
+HTTP response 200 OK [http://friedorange.xyz/quikscript/webfonts/junior_qgl1.woff2]
+[1] Downloading 'http://friedorange.xyz/quikscript/webfonts/kingsley_qgl1.woff' ...
+Saving 'friedorange.xyz/quikscript/webfonts/junior_qgl1.woff'
+Saving 'friedorange.xyz/quikscript/webfonts/kwikskript_qgl1.woff2'
+HTTP response 200 OK [http://friedorange.xyz/quikscript/webfonts/kwikskript_qgl1.woff2]
+[0] Downloading 'http://friedorange.xyz/quikscript/webfonts/kingplus_qgl1.woff2' ...
+HTTP response 200 OK [http://friedorange.xyz/quikscript/webfonts/junior_qgl1.woff]
+[3] Downloading 'http://friedorange.xyz/quikscript/webfonts/kingplus_qgl1.woff' ...
+Saving 'friedorange.xyz/quikscript/webfonts/kwikskript_qgl1.woff'
+HTTP response 200 OK [http://friedorange.xyz/quikscript/webfonts/kwikskript_qgl1.woff]
+[2] Downloading 'http://friedorange.xyz/quikscript/webfonts/kingplusmonospace_qgl1.woff2' ...
+Saving 'friedorange.xyz/quikscript/webfonts/kingsley_qgl1.woff2'
+HTTP response 200 OK [http://friedorange.xyz/quikscript/webfonts/kingsley_qgl1.woff2]
+[4] Downloading 'http://friedorange.xyz/quikscript/webfonts/kingplusmonospace_qgl1.woff' ...
+Saving 'friedorange.xyz/quikscript/webfonts/kingsley_qgl1.woff'
+HTTP response 200 OK [http://friedorange.xyz/quikscript/webfonts/kingsley_qgl1.woff]
+[1] Downloading 'http://friedorange.xyz/quikscript/webfonts/jeremy_qgl1.woff2' ...
+Saving 'friedorange.xyz/quikscript/webfonts/kingplus_qgl1.woff2'
+HTTP response 200 OK [http://friedorange.xyz/quikscript/webfonts/kingplus_qgl1.woff2]
+[0] Downloading 'http://friedorange.xyz/quikscript/webfonts/jeremy_qgl1.woff' ...
+Saving 'friedorange.xyz/quikscript/webfonts/kingplus_qgl1.woff'
+Saving 'friedorange.xyz/quikscript/webfonts/kingplusmonospace_qgl1.woff2'
+HTTP response 200 OK [http://friedorange.xyz/quikscript/webfonts/kingplus_qgl1.woff]
+[3] Downloading 'http://friedorange.xyz/quikscript/webfonts/quickscript_qgl1.woff2' ...
+HTTP response 200 OK [http://friedorange.xyz/quikscript/webfonts/kingplusmonospace_qgl1.woff2]
+[2] Downloading 'http://friedorange.xyz/quikscript/webfonts/quickscript_qgl1.woff' ...
+Saving 'friedorange.xyz/quikscript/webfonts/kingplusmonospace_qgl1.woff'
+HTTP response 200 OK [http://friedorange.xyz/quikscript/webfonts/kingplusmonospace_qgl1.woff]
+[4] Downloading 'http://friedorange.xyz/quikscript/webfonts/quickscriptgeorgian_qgl1.woff2' ...
+Saving 'friedorange.xyz/quikscript/webfonts/jeremy_qgl1.woff2'
+HTTP response 200 OK [http://friedorange.xyz/quikscript/webfonts/jeremy_qgl1.woff2]
+[1] Downloading 'http://friedorange.xyz/quikscript/webfonts/quickscriptgeorgian_qgl1.woff' ...
+Saving 'friedorange.xyz/quikscript/webfonts/jeremy_qgl1.woff'
+HTTP response 200 OK [http://friedorange.xyz/quikscript/webfonts/jeremy_qgl1.woff]
+[0] Downloading 'http://friedorange.xyz/quikscript/webfonts/suave_qgl1.woff2' ...
+Saving 'friedorange.xyz/quikscript/webfonts/quickscript_qgl1.woff2'
+HTTP response 200 OK [http://friedorange.xyz/quikscript/webfonts/quickscript_qgl1.woff2]
+[3] Downloading 'http://friedorange.xyz/quikscript/webfonts/suave_qgl1.woff' ...
+Saving 'friedorange.xyz/quikscript/webfonts/quickscript_qgl1.woff'
+HTTP response 200 OK [http://friedorange.xyz/quikscript/webfonts/quickscript_qgl1.woff]
+[2] Downloading 'http://friedorange.xyz/quikscript/otherfonts/Thoth.zip' ...
+Saving 'friedorange.xyz/quikscript/webfonts/suave_qgl1.woff2'
+HTTP response 200 OK [http://friedorange.xyz/quikscript/webfonts/suave_qgl1.woff2]
+[0] Downloading 'http://friedorange.xyz/quikscript/otherfonts/AbbotsMortonExperiment.zip' ...
+Saving 'friedorange.xyz/quikscript/webfonts/quickscriptgeorgian_qgl1.woff2'
+HTTP response 200 OK [http://friedorange.xyz/quikscript/webfonts/quickscriptgeorgian_qgl1.woff2]
+[4] Downloading 'http://friedorange.xyz/quikscript/otherfonts/QuikscriptSans.zip' ...
+Saving 'friedorange.xyz/quikscript/webfonts/quickscriptgeorgian_qgl1.woff'
+HTTP response 200 OK [http://friedorange.xyz/quikscript/webfonts/quickscriptgeorgian_qgl1.woff]
+[1] Downloading 'http://friedorange.xyz/quikscript/otherfonts/SecondShaw.zip' ...
+Saving 'friedorange.xyz/quikscript/otherfonts/Thoth.zip'
+Saving 'friedorange.xyz/quikscript/webfonts/suave_qgl1.woff'
+HTTP response 200 OK [http://friedorange.xyz/quikscript/webfonts/suave_qgl1.woff]
+[3] Downloading 'http://friedorange.xyz/quikscript/otherfonts/JeromeBeta.zip' ...
+Saving 'friedorange.xyz/quikscript/otherfonts/AbbotsMortonExperiment.zip'
+HTTP response 200 OK [http://friedorange.xyz/quikscript/otherfonts/AbbotsMortonExperiment.zip]
+[0] Downloading 'http://friedorange.xyz/quikscript/otherfonts/Jerome.zip' ...
+Saving 'friedorange.xyz/quikscript/otherfonts/SecondShaw.zip'
+HTTP response 200 OK [http://friedorange.xyz/quikscript/otherfonts/SecondShaw.zip]
+[1] Downloading 'http://friedorange.xyz/quikscript/otherfonts/Junior.zip' ...
+Saving 'friedorange.xyz/quikscript/otherfonts/QuikscriptSans.zip'
+HTTP response 200 OK [http://friedorange.xyz/quikscript/otherfonts/QuikscriptSans.zip]
+[4] Downloading 'http://friedorange.xyz/quikscript/otherfonts/Kwikskript.zip' ...
+HTTP response 200 OK [http://friedorange.xyz/quikscript/otherfonts/Thoth.zip]
+[2] Downloading 'http://friedorange.xyz/quikscript/otherfonts/Kingsley.zip' ...
+Saving 'friedorange.xyz/quikscript/otherfonts/Jerome.zip'
+Saving 'friedorange.xyz/quikscript/otherfonts/JeromeBeta.zip'
+HTTP response 200 OK [http://friedorange.xyz/quikscript/otherfonts/JeromeBeta.zip]
+[3] Downloading 'http://friedorange.xyz/quikscript/otherfonts/KingPlus.zip' ...
+Saving 'friedorange.xyz/quikscript/otherfonts/Junior.zip'
+Saving 'friedorange.xyz/quikscript/otherfonts/Kwikskript.zip'
+HTTP response 200 OK [http://friedorange.xyz/quikscript/otherfonts/Kwikskript.zip]
+[4] Downloading 'http://friedorange.xyz/quikscript/otherfonts/KingPlusMonospace.zip' ...
+HTTP response 200 OK [http://friedorange.xyz/quikscript/otherfonts/Junior.zip]
+[1] Downloading 'http://friedorange.xyz/quikscript/otherfonts/Jeremy.zip' ...
+Saving 'friedorange.xyz/quikscript/otherfonts/Kingsley.zip'
+HTTP response 200 OK [http://friedorange.xyz/quikscript/otherfonts/Jerome.zip]
+[0] Downloading 'http://friedorange.xyz/quikscript/otherfonts/Quickscript.zip' ...
+Saving 'friedorange.xyz/quikscript/otherfonts/KingPlus.zip'
+HTTP response 200 OK [http://friedorange.xyz/quikscript/otherfonts/KingPlus.zip]
+[3] Downloading 'http://friedorange.xyz/quikscript/otherfonts/QuickscriptGeorgian.zip' ...
+HTTP response 200 OK [http://friedorange.xyz/quikscript/otherfonts/Kingsley.zip]
+[2] Downloading 'http://friedorange.xyz/quikscript/otherfonts/Suave.zip' ...
+Saving 'friedorange.xyz/quikscript/otherfonts/KingPlusMonospace.zip'
+HTTP response 200 OK [http://friedorange.xyz/quikscript/otherfonts/KingPlusMonospace.zip]
+[4] Downloading 'http://friedorange.xyz/quikscript/otherfonts/QuikscriptGeometric.zip' ...
+Saving 'friedorange.xyz/quikscript/otherfonts/Quickscript.zip'
+HTTP response 200 OK [http://friedorange.xyz/quikscript/otherfonts/Quickscript.zip]
+[0] Downloading 'http://friedorange.xyz/quikscript/images/kralphabets.jpg' ...
+Saving 'friedorange.xyz/quikscript/otherfonts/Jeremy.zip'
+Saving 'friedorange.xyz/quikscript/otherfonts/QuickscriptGeorgian.zip'
+HTTP response 200 OK [http://friedorange.xyz/quikscript/otherfonts/QuickscriptGeorgian.zip]
+[3] Downloading 'http://friedorange.xyz/quikscript/qstc.html' ...
+HTTP response 200 OK [http://friedorange.xyz/quikscript/otherfonts/Jeremy.zip]
+[1] Downloading 'http://friedorange.xyz/quikscript/webfonts/ghoti.woff2' ...
+Saving 'friedorange.xyz/quikscript/otherfonts/QuikscriptGeometric.zip'
+HTTP response 200 OK [http://friedorange.xyz/quikscript/otherfonts/QuikscriptGeometric.zip]
+[4] Downloading 'http://friedorange.xyz/quikscript/webfonts/ghoti.woff' ...
+Saving 'friedorange.xyz/quikscript/otherfonts/Suave.zip'
+Saving 'friedorange.xyz/quikscript/qstc.html'
+HTTP response 200 OK [http://friedorange.xyz/quikscript/qstc.html]
+URI content encoding = 'utf-8' (set by document)
+[3] Downloading 'http://friedorange.xyz/quikscript/webfonts/jerome.woff2' ...
+Saving 'friedorange.xyz/quikscript/images/kralphabets.jpg'
+Saving 'friedorange.xyz/quikscript/webfonts/ghoti.woff'
+HTTP response 200 OK [http://friedorange.xyz/quikscript/webfonts/ghoti.woff]
+[4] Downloading 'http://friedorange.xyz/quikscript/webfonts/jerome.woff' ...
+Saving 'friedorange.xyz/quikscript/webfonts/ghoti.woff2'
+HTTP response 200 OK [http://friedorange.xyz/quikscript/webfonts/ghoti.woff2]
+HTTP response 200 OK [http://friedorange.xyz/quikscript/otherfonts/Suave.zip]
+Saving 'friedorange.xyz/quikscript/webfonts/jerome.woff2'
+HTTP response 200 OK [http://friedorange.xyz/quikscript/webfonts/jerome.woff2]
+Saving 'friedorange.xyz/quikscript/webfonts/jerome.woff'
+HTTP response 200 OK [http://friedorange.xyz/quikscript/webfonts/jerome.woff]
+HTTP response 200 OK [http://friedorange.xyz/quikscript/images/kralphabets.jpg]
+Downloaded: 149 files, 47.46M bytes, 0 redirects, 1 errors

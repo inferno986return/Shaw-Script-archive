@@ -1,0 +1,762 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<title>Typing | FriedOrange’s Quikscript Pages</title>
+<meta charset="utf-8">
+<meta name="author" content="Brad Neil">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet"> 
+<link rel="stylesheet" type="text/css" href="quikscript.css">
+<link rel="icon" type="image/png" href="../images/favicon.png">
+
+<style>
+@media all and (max-width: 56em) {
+	figure+figure {
+		margin-top: 1em;
+	}
+	.vertical {
+	writing-mode: vertical-lr;
+	}
+}
+@media screen and (min-width: 56em) {
+	figure {
+		float: left;
+		margin: 1em;
+	}
+	p {
+		clear: both;
+	}
+	.centre {
+		max-width: 597px;
+		margin: auto;
+	}
+}
+.kbd {
+	margin: auto;
+}
+.kbd td, .kbd th {
+	padding: 0.375em;
+}
+.kbd th {
+	text-align: center;
+}
+caption {
+	font-weight: bold;
+}
+</style>
+
+</head>
+<body>
+
+<div id="pgtop">
+<header>
+	<h1 title="FriedOrange’s Quikscript Pages">  </h1>
+</header>
+
+<nav>
+<ul>
+	<li><a href="intro.html">Introduction</a></li>
+	<li><a href="resources.html">Resources</a></li>
+	<li><a href="history.html">History</a></li>
+	<li><strong>Typing</strong></li>
+	<li><a href="myfonts.html">My Fonts</a></li>
+	<li><a href="otherfonts.html">Other Fonts</a></li>
+	<li><a href="qsgl.html">QSGL</a></li>
+	<li><a href="utilities.html">Utilities</a></li>
+</ul>
+</nav>
+</div>
+
+<main>
+
+<h2>Keyboard Layouts</h2>
+
+<p>The ASCII-based character encodings documented below require no special software to use; any text rendered with the appropriate font will appear in Quikscript letters. This was convenient before Unicode was in widespread use—with the limited number of unique characters that software could handle at the time—but breaks compatibility with the conventional Latin alphabet. To allow the two scripts to coexist more harmoniously, the Quikscript letters were moved to codepoints in the Unicode Private Use Area (PUA). Our computer keyboards are still limited to the ASCII range, however, so in order to make use of the new encoding we must first install a custom keyboard layout.</p>
+
+<p>In addition to the technical aspect, there is the problem of which key mappings to make. It seems that this is heavily affected by personal preference; by my count, no less than eleven schemes have been proposed on the Quikscript Yahoo! Group, plus Nathan Sharfi's <a rel="external" href="https://github.com/adiabatic/king-kong">King Kong</a>, Perry Hartono's <a rel="external" href="https://alternatescriptbureau.wordpress.com/2019/02/01/quikscript-geometric-a-sans-serif-font-for-the-quikscript-alphabet/">QuikEBEO</a>, my personal layout (see below) and the seven <i>de facto</i> layouts historically used by fonts (see <i>Character encodings</i> below). Most schemes place the Quikscript letters on keys according to their sound, chiefly differing on the compromises necessary for squeezing 44 letters onto 26 keys. King Kong does not follow that paradigm: instead, it employs all four rows of keys, allowing for one Quikscript letter per key (similar to the <a rel="external" href="https://oztypewriter.blogspot.com/2014/04/history-of-shavian-keyboard-imperial.html">Shavian typewriter</a>). By avoiding frequent use of the shift key, this may make for more comfortable typing—but will require more time to learn.</p>
+
+<h3>FriedOrange layout</h3>
+
+<p>I designed this keyboard layout so that it could be easily memorised. Careful attention has been paid to the character mappings, ensuring that each has a certain logic behind it (see the <a href="fokbd.html">detailed explanation</a>). It also aims to prevent some of the mistakes I often made while using an earlier version of it.</p>
+
+<p>The Windows installation packages were made with <a rel="external" href="https://www.microsoft.com/en-us/download/details.aspx?id=22339">Microsoft Keyboard Layout Creator</a> and the macOS bundles were made with <a rel="external" href="https://software.sil.org/ukelele/">SIL Ukelele</a>. The source files for the layouts are included, so they may be modified if you wish.</p>
+
+<table class="kbd noprint">
+<caption>FriedOrange’s Quikscript Keyboard Layout</caption>
+<tr>
+	<th></th>
+	<th>Windows</th>
+	<th>macOS</th>
+	<th>Linux</th>
+</tr>
+<tr>
+	<th>US Keyboard</th>
+	<td><a href="files/QSKeyboardWinUS.zip">Installation package</a><br>
+		<a href="files/QSKeyboardWinUS.pdf">Reference diagram</a></td>
+	<td><a href="files/QSKeyboardMacUS.zip">Installation package</a><br>
+		<a href="files/QSKeyboardMacUS.pdf">Reference diagram</a></td>
+	<td><a href="files/QSKeyboardLinuxUS.zip">Installation package</a><br>
+		<a href="files/QSKeyboardWinUS.pdf">Reference diagram</a></td>
+</tr>
+<tr>
+	<th>UK Keyboard</th>
+	<td><a href="files/QSKeyboardWinUK.zip">Installation Package</a><br>
+		<a href="files/QSKeyboardWinUK.pdf">Reference diagram</a></td>
+	<td><a href="files/QSKeyboardMacUK.zip">Installation Package</a><br>
+		<a href="files/QSKeyboardMacUK.pdf">Reference diagram</a></td>
+	<td><a href="files/QSKeyboardLinuxUK.zip">Installation package</a><br>
+		<a href="files/QSKeyboardWinUK.pdf">Reference diagram</a></td>
+</tr>
+</table>
+
+<p>The older Shavian alphabet has gone through a similar progression from ASCII-based encodings to the Unicode PUA, and now has its own block in the official Unicode character set. I have adapted my Quikscript keyboard layout to suit it. Please note that this significantly differs from the “standard” Shavian layout developed by the online community in the late 1990s; as far as I know, it was widely accepted (unlike any single Quikscript layout).</p>
+
+<table class="kbd noprint">
+	<caption>FriedOrange’s Shavian Keyboard Layout</caption>
+<tr>
+	<th></th>
+	<th>Windows</th>
+	<th>macOS</th>
+	<th>Linux</th>
+</tr>
+<tr>
+	<th>US Keyboard</th>
+	<td><a href="files/ShawKeyboardWinUS.zip">Installation package</a><br>
+		<a href="files/ShawKeyboardWinUS.pdf">Reference diagram</a></td>
+	<td><a href="files/ShawKeyboardMacUS.zip">Installation package</a><br>
+		<a href="files/ShawKeyboardMacUS.pdf">Reference diagram</a></td>
+	<td><a href="files/ShawKeyboardLinuxUS.zip">Installation package</a><br>
+		<a href="files/ShawKeyboardWinUS.pdf">Reference diagram</a></td>
+</tr>
+<tr>
+	<th>UK Keyboard</th>
+	<td><a href="files/ShawKeyboardWinUK.zip">Installation Package</a><br>
+		<a href="files/ShawKeyboardWinUK.pdf">Reference diagram</a></td>
+	<td><a href="files/ShawKeyboardMacUK.zip">Installation Package</a><br>
+		<a href="files/ShawKeyboardMacUK.pdf">Reference diagram</a></td>
+	<td><a href="files/ShawKeyboardLinuxUK.zip">Installation package</a><br>
+		<a href="files/ShawKeyboardWinUK.pdf">Reference diagram</a></td>
+</tr>
+</table>
+
+<p>To install the keyboard layouts, first extract the ZIP files to a folder on your computer. On Windows, simply run <i>setup.exe</i>. On macOS, navigate to "/Library/Keyboard Layouts" with the Finder and move the <i>.bundle</i> files there. Now the layouts may be enabled in Keyboard Preferences &gt; Input Sources (click the + button to add a new input). On Linux, follow the instructions in README.txt.</p>
+<p>Once set up, you may easily switch between the custom layouts and your original standard one using the button which will appear on the right-hand side of the taskbar (in Windows) or the menu bar (in macOS):</p>
+
+<div class="centre">
+<figure style="width: 300px;">
+	<img src="images/inputselectwin.png" alt="Screenshot of Windows input method selection" width="300" height="289">
+</figure>
+
+<figure style="width: 233px;">
+	<img src="images/inputselectmac.png" alt="Screenshot of macOS input method selection" width="233"  height="209">
+</figure>
+</div>
+
+<p>In Windows 8 and 10, you can also use the keyboard shortcut Windows key+Space to switch between the installed layouts. In macOS, a similar shortcut may be enabled through Keyboard Preferences &gt; Shortcuts &gt; Input Sources. Similar buttons and keyboard shortcuts should be available on Linux, too, but the details will differ between distributions and desktop environments.</p>
+
+<h2 id="encodings">Character encodings</h2>
+
+<p>Early Quikscript fonts placed the new letters in positions that would have ordinarily been occupied by Latin letters. This eliminated the need to meddle with the computer's default key mapping (input method), as their encodings effectively doubled as keyboard layouts. Some fonts also allocated codepoints to ligatures, halved and other alternative forms of letters, but these are not listed here.
+
+<table class="decorated">
+<tr style="vertical-align: bottom; writing-mode: vertical-lr;">
+	<th><span class="vertical">Character</span></th>
+	<th><span class="vertical">Second&nbsp;Shaw</span></th>
+	<th><span class="vertical">Jerome&nbsp;Beta</span></th>
+	<th><span class="vertical">Shavian<sup>1</sup></span></th>
+	<th><span class="vertical">QS‑SAMPA<sup>2</sup></span></th>
+	<th><span class="vertical">Thoth&nbsp;Int</span></th>
+	<th><span class="vertical">Quickscript</span></th>
+	<th><span class="vertical">Suave</span></th>
+	<th><span class="vertical">Unicode&nbsp;PUA<sup>3</sup></span></th>
+</tr>
+<tr>
+	<td></td>
+	<td>p</td>
+	<td>p</td>
+	<td>p</td>
+	<td>p</td>
+	<td>p</td>
+	<td>p</td>
+	<td>p</td>
+	<td>U+E650</td>
+</tr>
+<tr>
+	<td></td>
+	<td>b</td>
+	<td>b</td>
+	<td>b</td>
+	<td>b</td>
+	<td>b</td>
+	<td>b</td>
+	<td>b</td>
+	<td>U+E651</td>
+</tr>
+<tr>
+	<td></td>
+	<td>t</td>
+	<td>t</td>
+	<td>t</td>
+	<td>t</td>
+	<td>t</td>
+	<td>t</td>
+	<td>t</td>
+	<td>U+E652</td>
+</tr>
+<tr>
+	<td></td>
+	<td>d</td>
+	<td>d</td>
+	<td>d</td>
+	<td>d</td>
+	<td>d</td>
+	<td>d</td>
+	<td>d</td>
+	<td>U+E653</td>
+</tr>
+<tr>
+	<td></td>
+	<td>k</td>
+	<td>k</td>
+	<td>k</td>
+	<td>k</td>
+	<td>k</td>
+	<td>k</td>
+	<td>k</td>
+	<td>U+E654</td>
+</tr>
+<tr>
+	<td></td>
+	<td>g</td>
+	<td>g</td>
+	<td>g</td>
+	<td>g</td>
+	<td>g</td>
+	<td>g</td>
+	<td>g</td>
+	<td>U+E655</td>
+</tr>
+<tr>
+	<td></td>
+	<td>Y</td>
+	<td>T</td>
+	<td>T</td>
+	<td>T</td>
+	<td>T</td>
+	<td>H</td>
+	<td>T</td>
+	<td>U+E656</td>
+</tr>
+<tr>
+	<td></td>
+	<td>T</td>
+	<td>H</td>
+	<td>H</td>
+	<td>D</td>
+	<td>D</td>
+	<td>T</td>
+	<td>D</td>
+	<td>U+E657</td>
+</tr>
+<tr>
+	<td></td>
+	<td>f</td>
+	<td>f</td>
+	<td>f</td>
+	<td>f</td>
+	<td>f</td>
+	<td>f</td>
+	<td>f</td>
+	<td>U+E658</td>
+</tr>
+<tr>
+	<td></td>
+	<td>v</td>
+	<td>v</td>
+	<td>v</td>
+	<td>v</td>
+	<td>v</td>
+	<td>v</td>
+	<td>v</td>
+	<td>U+E659</td>
+
+</tr>
+<tr>
+	<td></td>
+	<td>s</td>
+	<td>s</td>
+	<td>s</td>
+	<td>s</td>
+	<td>s</td>
+	<td>s</td>
+	<td>s</td>
+	<td>U+E65A</td>
+</tr>
+<tr>
+	<td></td>
+	<td>z</td>
+	<td>z</td>
+	<td>z</td>
+	<td>z</td>
+	<td>z</td>
+	<td>z</td>
+	<td>z</td>
+	<td>U+E65B</td>
+</tr>
+<tr>
+	<td></td>
+	<td>S</td>
+	<td>S</td>
+	<td>S</td>
+	<td>S</td>
+	<td>S</td>
+	<td>S</td>
+	<td>S</td>
+	<td>U+E65C</td>
+</tr>
+<tr>
+	<td></td>
+	<td>J</td>
+	<td>Z</td>
+	<td>Z</td>
+	<td>Z</td>
+	<td>Z</td>
+	<td>Z</td>
+	<td>Z</td>
+	<td>U+E65D</td>
+</tr>
+<tr>
+	<td></td>
+	<td>c</td>
+	<td>c</td>
+	<td>c</td>
+	<td>c</td>
+	<td>C</td>
+	<td>J</td>
+	<td>c</td>
+	<td>U+E65E</td>
+</tr>
+<tr>
+	<td></td>
+	<td>j</td>
+	<td>J</td>
+	<td>J</td>
+	<td>J</td>
+	<td>j</td>
+	<td>j</td>
+	<td>j</td>
+	<td>U+E65F</td>
+</tr>
+<tr>
+	<td></td>
+	<td>y</td>
+	<td>j</td>
+	<td>j</td>
+	<td>j</td>
+	<td>y</td>
+	<td>y</td>
+	<td>y</td>
+	<td>U+E660</td>
+</tr>
+<tr>
+	<td></td>
+	<td>w</td>
+	<td>w</td>
+	<td>w</td>
+	<td>w</td>
+	<td>w</td>
+	<td>w</td>
+	<td>w</td>
+	<td>U+E661</td>
+</tr>
+<tr>
+	<td></td>
+	<td>h</td>
+	<td>h</td>
+	<td>h</td>
+	<td>h</td>
+	<td>h</td>
+	<td>h</td>
+	<td>h</td>
+	<td>U+E662</td>
+</tr>
+<tr>
+	<td></td>
+	<td><i>N/A</i></td>
+	<td>B</td>
+	<td>`</td>
+	<td>W</td>
+	<td>P</td>
+	<td>W</td>
+	<td>W</td>
+	<td>U+E663</td>
+</tr>
+<tr>
+	<td></td>
+	<td>N</td>
+	<td>N</td>
+	<td>N</td>
+	<td>N</td>
+	<td>N</td>
+	<td>N</td>
+	<td>G</td>
+	<td>U+E664</td>
+</tr>
+<tr>
+	<td></td>
+	<td>m</td>
+	<td>m</td>
+	<td>m</td>
+	<td>m</td>
+	<td>m</td>
+	<td>m</td>
+	<td>m</td>
+	<td>U+E665</td>
+</tr>
+<tr>
+	<td></td>
+	<td>n</td>
+	<td>n</td>
+	<td>n</td>
+	<td>n</td>
+	<td>n</td>
+	<td>n</td>
+	<td>n</td>
+	<td>U+E666</td>
+</tr>
+<tr>
+	<td></td>
+	<td>l</td>
+	<td>l</td>
+	<td>l</td>
+	<td>l</td>
+	<td>l</td>
+	<td>l</td>
+	<td>l</td>
+	<td>U+E667</td>
+</tr>
+<tr>
+	<td></td>
+	<td>r</td>
+	<td>r</td>
+	<td>r</td>
+	<td>r</td>
+	<td>r</td>
+	<td>r</td>
+	<td>r</td>
+	<td>U+E668</td>
+</tr>
+<tr>
+	<td></td>
+	<td>I</td>
+	<td>i</td>
+	<td>i</td>
+	<td>I</td>
+	<td>i</td>
+	<td>i</td>
+	<td>i</td>
+	<td>U+E670</td>
+</tr>
+<tr>
+	<td></td>
+	<td>e</td>
+	<td>I</td>
+	<td>I</td>
+	<td>i</td>
+	<td>E</td>
+	<td>E</td>
+	<td>I</td>
+	<td>U+E671</td>
+</tr>
+<tr>
+	<td></td>
+	<td>E</td>
+	<td>e</td>
+	<td>e</td>
+	<td>E</td>
+	<td>e</td>
+	<td>e</td>
+	<td>e</td>
+	<td>U+E672</td>
+</tr>
+<tr>
+	<td></td>
+	<td>a</td>
+	<td>E</td>
+	<td>E</td>
+	<td>e</td>
+	<td>A</td>
+	<td>A</td>
+	<td>E</td>
+	<td>U+E673</td>
+</tr>
+<tr>
+	<td></td>
+	<td>A</td>
+	<td>A</td>
+	<td>A</td>
+	<td>a</td>
+	<td>a</td>
+	<td>a</td>
+	<td>A</td>
+	<td>U+E674</td>
+</tr>
+<tr>
+	<td></td>
+	<td>i</td>
+	<td>F</td>
+	<td>F</td>
+	<td>Y</td>
+	<td>I</td>
+	<td>I</td>
+	<td>F</td>
+	<td>U+E675</td>
+</tr>
+<tr>
+	<td></td>
+	<td>Z</td>
+	<td>y</td>
+	<td>y</td>
+	<td>A</td>
+	<td>R</td>
+	<td>q</td>
+	<td>x</td>
+	<td>U+E676</td>
+</tr>
+<tr>
+	<td></td>
+	<td>W</td>
+	<td>Y</td>
+	<td>Y</td>
+	<td>O</td>
+	<td>Q</td>
+	<td>Q</td>
+	<td>|</td>
+	<td>U+E677</td>
+</tr>
+<tr>
+	<td></td>
+	<td>O</td>
+	<td>o</td>
+	<td>o</td>
+	<td>Q</td>
+	<td>o</td>
+	<td>o</td>
+	<td>O</td>
+	<td>U+E678</td>
+</tr>
+<tr>
+	<td></td>
+	<td>M</td>
+	<td>q</td>
+	<td>q</td>
+	<td>R</td>
+	<td>Y</td>
+	<td>C</td>
+	<td>q</td>
+	<td>U+E679</td>
+</tr>
+<tr>
+	<td></td>
+	<td>G</td>
+	<td>a</td>
+	<td>a</td>
+	<td>y</td>
+	<td>u</td>
+	<td>u</td>
+	<td>a</td>
+	<td>U+E67A</td>
+</tr>
+<tr>
+	<td></td>
+	<td>L</td>
+	<td>Q</td>
+	<td>Q</td>
+	<td>H</td>
+	<td>W</td>
+	<td>c</td>
+	<td>Q</td>
+	<td>U+E67B</td>
+</tr>
+<tr>
+	<td></td>
+	<td>o</td>
+	<td>O</td>
+	<td>O</td>
+	<td>o</td>
+	<td>O</td>
+	<td>O</td>
+	<td>o</td>
+	<td>U+E67C</td>
+</tr>
+<tr>
+	<td></td>
+	<td>U</td>
+	<td>U</td>
+	<td>U</td>
+	<td>U</td>
+	<td>V</td>
+	<td>Y</td>
+	<td>u</td>
+	<td>U+E67D</td>
+</tr>
+<tr>
+	<td></td>
+	<td>H</td>
+	<td>M</td>
+	<td>M</td>
+	<td>u</td>
+	<td>U</td>
+	<td>U</td>
+	<td>U</td>
+	<td>U+E67E</td>
+</tr>
+<tr>
+	<td></td>
+	<td><i>N/A</i></td>
+	<td>~</td>
+	<td>ç</td>
+	<td>x</td>
+	<td>K</td>
+	<td><i>N/A</i></td>
+	<td>â</td>
+	<td>U+E669</td>
+</tr>
+<tr>
+	<td></td>
+	<td><i>N/A</i></td>
+	<td>`</td>
+	<td>æ</td>
+	<td>K</td>
+	<td>L</td>
+	<td><i>N/A</i></td>
+	<td>à</td>
+	<td>U+E66A</td>
+</tr>
+<tr>
+	<td></td>
+	<td><i>N/A</i></td>
+	<td><i>N/A</i></td>
+	<td>è</td>
+	<td>X</td>
+	<td>X</td>
+	<td><i>N/A</i></td>
+	<td>ä</td>
+	<td>U+E66B</td>
+</tr>
+<tr>
+	<td></td>
+	<td><i>N/A</i></td>
+	<td><i>N/A</i></td>
+	<td>é</td>
+	<td>G</td>
+	<td>x</td>
+	<td><i>N/A</i></td>
+	<td>ã</td>
+	<td>U+E66C</td>
+</tr>
+<tr>
+	<td>·</td>
+	<td><i>N/A</i></td>
+	<td>/</td>
+	<td>/</td>
+	<td>·</td>
+	<td>`</td>
+	<td>~</td>
+	<td>/</td>
+	<td>·</td>
+</tr>
+<tr>
+	<td></td>
+	<td>(</td>
+	<td>(</td>
+	<td>(</td>
+	<td>(</td>
+	<td>(</td>
+	<td>(</td>
+	<td>(</td>
+	<td>U+E66E</td>
+</tr>
+<tr>
+	<td></td>
+	<td>)</td>
+	<td>)</td>
+	<td>)</td>
+	<td>)</td>
+	<td>)</td>
+	<td>)</td>
+	<td>)</td>
+	<td>U+E66F</td>
+</tr>
+</table>
+
+
+<p>Notes:</p>
+<ol>
+	<li class="lhfix">The “Shavian” encoding was based on the keyboard layout developed by the internet Shavian community, with five additional allocations for those letters unique to Quikscript. This explains the inclusion of Shavian-style ligatures in certain fonts (not listed here). It is used by Kingsley, King Plus and King Plus Monospace with modifications: the letters <span class="qs">   </span> have the same codepoints as listed for the “Suave” encoding.</li>
+	<li>QS‑SAMPA was based on <a rel="external" href="https://en.wikipedia.org/wiki/X-SAMPA">X-SAMPA</a>, an ASCII-compatible representation of the International Phonetic Alphabet, with some alterations for more convenient typing. Letters without an IPA equivalent appear to have been assigned arbitrarily.</li>
+	<li>The table entries here are not keystrokes, but <em>codepoints</em> given in the form U+<var>X</var>, where <var>X</var> is a hexadecimal number. The Unicode value for the Latin capital letter A, for example, is U+0041. The PUA encoding should be used for all new fonts, and may be typed with one of the keyboard entry methods described above.</li>
+</ol>
+
+<p>How to type the “off-the-keyboard” characters (use the numeric keypad for the codes on Windows):</p>
+
+<table class="decorated">
+<tr>
+	<th></th>
+	<th>Windows</th>
+	<th>macOS</th>
+</tr>
+<tr>
+	<td>ç</td>
+	<td>Alt+0231</td>
+	<td>Option+C</td>
+</tr>
+<tr>
+	<td>æ</td>
+	<td>Alt+0230</td>
+	<td>Option+&apos;</td>
+</tr>
+<tr>
+	<td>è</td>
+	<td>Alt+0232</td>
+	<td>Option+`, E</td>
+</tr>
+<tr>
+	<td>é</td>
+	<td>Alt+0233</td>
+	<td>Option+E, E</td>
+</tr>
+<tr>
+	<td>â</td>
+	<td>Alt+0226</td>
+	<td>Option+I, A</td>
+</tr>
+<tr>
+	<td>à</td>
+	<td>Alt+0224</td>
+	<td>Option+`, A</td>
+</tr>
+<tr>
+	<td>ä</td>
+	<td>Alt+0228</td>
+	<td>Option+U, A</td>
+</tr>
+<tr>
+	<td>ã</td>
+	<td>Alt+0227</td>
+	<td>Option+N, A</td>
+</tr>
+<tr>
+	<td>·</td>
+	<td>Alt+0183</td>
+	<td>Option+Shift+9</td>
+</tr>
+</table>
+
+</main>
+<footer>
+	<p>Copyright © 2022, Brad Neil. The text of this page is licenced under <span style="font-size: 1.5em; vertical-align: -0.125em;">🅭🅯</span> <a rel="license" href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution</a>.<br>My email address is my first name @ this website.</p>
+</footer>
+</body>
+</html>

@@ -1,0 +1,61 @@
+* {
+	box-sizing: border-box;
+}
+@media only print {
+	body {
+	font-size: 0.75em;
+	}
+	.noprint, nav {
+		display: none;
+	}
+	a, a:visited, abbr {
+		color: black;
+		text-decoration: none;
+	}
+}
+@media only screen and (min-width: 33em) {
+	body {
+		width: 33em;
+	}
+}
+body {
+	color: white;
+	background: black;
+	margin: auto;
+	padding-left: 1em;
+	padding-right: 1em;
+	line-height: 1.5;
+	font-family: "Open Sans", sans-serif;
+}
+@media only screen {
+	h1, h2, h3, h4, h5, h6 {
+		color: mediumspringgreen;
+	}
+}
+h1 {
+	text-align: center;
+	font-family: "QS Matrix Print";
+	font-weight: normal;
+	font-size: 3em;
+	line-height: 1.0;
+}
+h2 {
+	text-align: center;
+}
+a {
+	color: springgreen;
+}
+a:visited {
+	color: seagreen;
+}
+a:active {
+	color: hotpink;
+}
+footer {
+	margin-top: 4em;
+}
+@font-face {
+	font-family: "QS Matrix Print";
+	src: url("quikscript/webfonts/QSMatrixPrint.woff2") format("woff2"),
+		 url("quikscript/webfonts/QSMatrixPrint.woff") format("woff");
+}

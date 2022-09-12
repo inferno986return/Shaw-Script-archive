@@ -1,0 +1,1573 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>QSGL | FriedOrange’s Quikscript Pages</title>
+	<meta charset="utf-8">
+	<meta name="author" content="Brad Neil">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet"> 
+	<link rel="stylesheet" type="text/css" href="quikscript.css">
+	<link rel="icon" type="image/png" href="../images/favicon.png">
+	<style>
+	.L0, table.decorated tr.L0 {
+		background: lightpink;
+	}
+	.L1, table.decorated tr.L1 {
+		background: khaki;
+	}
+	.L2, table.decorated tr.L2 {
+		background: palegreen;
+	}
+	.L3, table.decorated tr.L3 {
+		background: lightskyblue;
+	}
+	th, td {
+		border: 1px solid grey;
+	}
+	</style>
+</head>
+<body>
+
+<div id="pgtop">
+<header>
+	<h1 title="FriedOrange’s Quikscript Pages">  </h1>
+</header>
+<nav>
+<ul>
+	<li><a href="intro.html">Introduction</a></li>
+	<li><a href="resources.html">Resources</a></li>
+	<li><a href="history.html">History</a></li>
+	<li><a href="typing.html">Typing</a></li>
+	<li><a href="myfonts.html">My Fonts</a></li>
+	<li><a href="otherfonts.html">Other Fonts</a></li>
+	<li><strong>QSGL</strong></li>
+	<li><a href="utilities.html">Utilities</a></li>
+</ul>
+</nav>
+</div>
+
+<main>
+
+<h2>Quikscript Glyph List</h2>
+<h3>Version 1.0</h3>
+
+<p>Most existing Quikscript fonts lack consistency in the characters they include and their codepoint allocations. This means that texts may become garbled after changing fonts, and different fonts may require different keystrokes to type the same characters (see Typing for a list of character mappings in use). Important characters may be missing entirely. These problems will lead to confusion and frustration in the user.</p>
+
+<p>Taking inspiration from industry standards such as the <a rel="external" href="https://docs.microsoft.com/en-au/typography/opentype/spec/wgl4">Windows Glyph List</a> and <a rel="external" href="https://github.com/adobe-type-tools/adobe-latin-charsets">Adobe Latin</a>, I have compiled the following list of glyphs which I believe should be considered for inclusion in every Quikscript font. It is built upon Nathan Sharfi's <a rel="external" href="https://www.quikscript.net/csur/">Quikscript block</a> proposal for the <a rel="external" href="http://www.evertype.com/standards/csur/">ConScript Unicode Registry</a>. The list is divided into multiple levels:</p>
+
+<p><span class="L0" style="padding:0.25em;"><strong>Level 0</strong>:</span> Quikscript characters only. Most existing fonts meet merely this level; some even fail to.</p>
+
+<p><span class="L1" style="padding:0.25em;"><strong>Level I</strong> (Required):</span> glyphs essential for typesetting a simple Quikscript text in one font.</p>
+
+<p><span class="L2" style="padding:0.25em;"><strong>Level II</strong> (Recommended):</span> additional glyphs which help to make the font more useful and user-friendly.</p>
+
+<p><span class="L3" style="padding:0.25em;"><strong>Level III</strong> (Optional):</span> suggestions for extra glyphs which may be needed in niche applications.</p>
+
+<p>Feedback on these guidelines is welcomed. Feel free to discuss via email (see bottom of page). Note that the list is primarily focused on text-oriented typefaces, which tend to require a wider character repertoire. For display or novelty faces, Level I or even Level 0 may be just fine.</p>
+
+<p>There is also a <a href="files/QSGL1.0.zip">spreadsheet version</a> of this table available for download.</p>
+
+<table class="decorated">
+<tr>
+	<th>Unicode</th>
+	<th>Glyph</th>
+	<th>Name</th>
+	<th>Rationale</th>
+</tr>
+<tr class="L1">
+	<td>0020</td>
+	<td>&nbsp;</td>
+	<td>SPACE</td>
+	<td rowspan=3>Essential glyphs for English<sup>1</sup></td>
+</tr>
+<tr class="L1">
+	<td>0021</td>
+	<td>!</td>
+	<td>EXCLAMATION MARK</td>
+</tr>
+<tr class="L1">
+	<td>0022</td>
+	<td>&quot;</td>
+	<td>QUOTATION MARK</td>
+</tr>
+<tr class="L2">
+	<td>0023</td>
+	<td>#</td>
+	<td>NUMBER SIGN</td>
+	<td>Available on English keyboards<sup>2</sup></td>
+</tr>
+<tr class="L1">
+	<td>0024</td>
+	<td>$</td>
+	<td>DOLLAR SIGN</td>
+	<td>Currency symbol for USA, Canada, Australia, New Zealand etc.</td>
+</tr>
+<tr class="L2">
+	<td>0025</td>
+	<td>%</td>
+	<td>PERCENT SIGN</td>
+	<td rowspan=2>Available on English keyboards</td>
+</tr>
+<tr class="L2">
+	<td>0026</td>
+	<td>&amp;</td>
+	<td>AMPERSAND</td>
+</tr>
+<tr class="L1">
+	<td>0027</td>
+	<td>&apos;</td>
+	<td>APOSTROPHE</td>
+	<td>Essential glyphs for English</td>
+</tr>
+<tr class="L2">
+	<td>0028</td>
+	<td>(</td>
+	<td>LEFT PARENTHESIS</td>
+	<td rowspan=4>Available on English keyboards</td>
+</tr>
+<tr class="L2">
+	<td>0029</td>
+	<td>)</td>
+	<td>RIGHT PARENTHESIS</td>
+</tr>
+<tr class="L2">
+	<td>002A</td>
+	<td>*</td>
+	<td>ASTERISK</td>
+</tr>
+<tr class="L2">
+	<td>002B</td>
+	<td>+</td>
+	<td>PLUS SIGN</td>
+</tr>
+<tr class="L1">
+	<td>002C</td>
+	<td>,</td>
+	<td>COMMA</td>
+	<td rowspan=16>Essential glyphs for English</td>
+</tr>
+<tr class="L1">
+	<td>002D</td>
+	<td>-</td>
+	<td>HYPHEN-MINUS</td>
+</tr>
+<tr class="L1">
+	<td>002E</td>
+	<td>.</td>
+	<td>FULL STOP</td>
+</tr>
+<tr class="L1">
+	<td>002F</td>
+	<td>/</td>
+	<td>SOLIDUS</td>
+</tr>
+<tr class="L1">
+	<td>0030</td>
+	<td>0</td>
+	<td>DIGIT ZERO</td>
+</tr>
+<tr class="L1">
+	<td>0031</td>
+	<td>1</td>
+	<td>DIGIT ONE</td>
+</tr>
+<tr class="L1">
+	<td>0032</td>
+	<td>2</td>
+	<td>DIGIT TWO</td>
+</tr>
+<tr class="L1">
+	<td>0033</td>
+	<td>3</td>
+	<td>DIGIT THREE</td>
+</tr>
+<tr class="L1">
+	<td>0034</td>
+	<td>4</td>
+	<td>DIGIT FOUR</td>
+</tr>
+<tr class="L1">
+	<td>0035</td>
+	<td>5</td>
+	<td>DIGIT FIVE</td>
+</tr>
+<tr class="L1">
+	<td>0036</td>
+	<td>6</td>
+	<td>DIGIT SIX</td>
+</tr>
+<tr class="L1">
+	<td>0037</td>
+	<td>7</td>
+	<td>DIGIT SEVEN</td>
+</tr>
+<tr class="L1">
+	<td>0038</td>
+	<td>8</td>
+	<td>DIGIT EIGHT</td>
+</tr>
+<tr class="L1">
+	<td>0039</td>
+	<td>9</td>
+	<td>DIGIT NINE</td>
+</tr>
+<tr class="L1">
+	<td>003A</td>
+	<td>:</td>
+	<td>COLON</td>
+</tr>
+<tr class="L1">
+	<td>003B</td>
+	<td>;</td>
+	<td>SEMICOLON</td>
+</tr>
+<tr class="L2">
+	<td>003C</td>
+	<td>&lt;</td>
+	<td>LESS-THAN SIGN</td>
+	<td rowspan=3>Available on English keyboards</td>
+</tr>
+<tr class="L2">
+	<td>003D</td>
+	<td>=</td>
+	<td>EQUALS SIGN</td>
+</tr>
+<tr class="L2">
+	<td>003E</td>
+	<td>&gt;</td>
+	<td>GREATER-THAN SIGN</td>
+</tr>
+<tr class="L1">
+	<td>003F</td>
+	<td>?</td>
+	<td>QUESTION MARK</td>
+	<td>Essential glyphs for English</td>
+</tr>
+<tr class="L2">
+	<td>0040</td>
+	<td>@</td>
+	<td>COMMERCIAL AT</td>
+	<td>Available on English keyboards</td>
+</tr>
+<tr class="L3">
+	<td>0041</td>
+	<td>A</td>
+	<td>LATIN CAPITAL LETTER A</td>
+	<td rowspan=26>Conventional text may be required for names, addresses, etc.<sup>3</sup></td>
+</tr>
+<tr class="L3">
+	<td>0042</td>
+	<td>B</td>
+	<td>LATIN CAPITAL LETTER B</td>
+</tr>
+<tr class="L3">
+	<td>0043</td>
+	<td>C</td>
+	<td>LATIN CAPITAL LETTER C</td>
+</tr>
+<tr class="L3">
+	<td>0044</td>
+	<td>D</td>
+	<td>LATIN CAPITAL LETTER D</td>
+</tr>
+<tr class="L3">
+	<td>0045</td>
+	<td>E</td>
+	<td>LATIN CAPITAL LETTER E</td>
+</tr>
+<tr class="L3">
+	<td>0046</td>
+	<td>F</td>
+	<td>LATIN CAPITAL LETTER F</td>
+</tr>
+<tr class="L3">
+	<td>0047</td>
+	<td>G</td>
+	<td>LATIN CAPITAL LETTER G</td>
+</tr>
+<tr class="L3">
+	<td>0048</td>
+	<td>H</td>
+	<td>LATIN CAPITAL LETTER H</td>
+</tr>
+<tr class="L3">
+	<td>0049</td>
+	<td>I</td>
+	<td>LATIN CAPITAL LETTER I</td>
+</tr>
+<tr class="L3">
+	<td>004A</td>
+	<td>J</td>
+	<td>LATIN CAPITAL LETTER J</td>
+</tr>
+<tr class="L3">
+	<td>004B</td>
+	<td>K</td>
+	<td>LATIN CAPITAL LETTER K</td>
+</tr>
+<tr class="L3">
+	<td>004C</td>
+	<td>L</td>
+	<td>LATIN CAPITAL LETTER L</td>
+</tr>
+<tr class="L3">
+	<td>004D</td>
+	<td>M</td>
+	<td>LATIN CAPITAL LETTER M</td>
+</tr>
+<tr class="L3">
+	<td>004E</td>
+	<td>N</td>
+	<td>LATIN CAPITAL LETTER N</td>
+</tr>
+<tr class="L3">
+	<td>004F</td>
+	<td>O</td>
+	<td>LATIN CAPITAL LETTER O</td>
+</tr>
+<tr class="L3">
+	<td>0050</td>
+	<td>P</td>
+	<td>LATIN CAPITAL LETTER P</td>
+</tr>
+<tr class="L3">
+	<td>0051</td>
+	<td>Q</td>
+	<td>LATIN CAPITAL LETTER Q</td>
+</tr>
+<tr class="L3">
+	<td>0052</td>
+	<td>R</td>
+	<td>LATIN CAPITAL LETTER R</td>
+</tr>
+<tr class="L3">
+	<td>0053</td>
+	<td>S</td>
+	<td>LATIN CAPITAL LETTER S</td>
+</tr>
+<tr class="L3">
+	<td>0054</td>
+	<td>T</td>
+	<td>LATIN CAPITAL LETTER T</td>
+</tr>
+<tr class="L3">
+	<td>0055</td>
+	<td>U</td>
+	<td>LATIN CAPITAL LETTER U</td>
+</tr>
+<tr class="L3">
+	<td>0056</td>
+	<td>V</td>
+	<td>LATIN CAPITAL LETTER V</td>
+</tr>
+<tr class="L3">
+	<td>0057</td>
+	<td>W</td>
+	<td>LATIN CAPITAL LETTER W</td>
+</tr>
+<tr class="L3">
+	<td>0058</td>
+	<td>X</td>
+	<td>LATIN CAPITAL LETTER X</td>
+</tr>
+<tr class="L3">
+	<td>0059</td>
+	<td>Y</td>
+	<td>LATIN CAPITAL LETTER Y</td>
+</tr>
+<tr class="L3">
+	<td>005A</td>
+	<td>Z</td>
+	<td>LATIN CAPITAL LETTER Z</td>
+</tr>
+<tr class="L2">
+	<td>005B</td>
+	<td>[</td>
+	<td>LEFT SQUARE BRACKET</td>
+	<td rowspan=6>Available on English keyboards</td>
+</tr>
+<tr class="L2">
+	<td>005C</td>
+	<td>\</td>
+	<td>REVERSE SOLIDUS</td>
+</tr>
+<tr class="L2">
+	<td>005D</td>
+	<td>]</td>
+	<td>RIGHT SQUARE BRACKET</td>
+</tr>
+<tr class="L2">
+	<td>005E</td>
+	<td>^</td>
+	<td>CIRCUMFLEX ACCENT</td>
+</tr>
+<tr class="L2">
+	<td>005F</td>
+	<td>_</td>
+	<td>LOW LINE</td>
+</tr>
+<tr class="L2">
+	<td>0060</td>
+	<td>`</td>
+	<td>GRAVE ACCENT</td>
+</tr>
+<tr class="L3">
+	<td>0061</td>
+	<td>a</td>
+	<td>LATIN SMALL LETTER A</td>
+	<td rowspan=26>Conventional text may be required for names, addresses, etc.<sup>3</sup></td>
+</tr>
+<tr class="L3">
+	<td>0062</td>
+	<td>b</td>
+	<td>LATIN SMALL LETTER B</td>
+</tr>
+<tr class="L3">
+	<td>0063</td>
+	<td>c</td>
+	<td>LATIN SMALL LETTER C</td>
+</tr>
+<tr class="L3">
+	<td>0064</td>
+	<td>d</td>
+	<td>LATIN SMALL LETTER D</td>
+</tr>
+<tr class="L3">
+	<td>0065</td>
+	<td>e</td>
+	<td>LATIN SMALL LETTER E</td>
+</tr>
+<tr class="L3">
+	<td>0066</td>
+	<td>f</td>
+	<td>LATIN SMALL LETTER F</td>
+</tr>
+<tr class="L3">
+	<td>0067</td>
+	<td>g</td>
+	<td>LATIN SMALL LETTER G</td>
+</tr>
+<tr class="L3">
+	<td>0068</td>
+	<td>h</td>
+	<td>LATIN SMALL LETTER H</td>
+</tr>
+<tr class="L3">
+	<td>0069</td>
+	<td>i</td>
+	<td>LATIN SMALL LETTER I</td>
+</tr>
+<tr class="L3">
+	<td>006A</td>
+	<td>j</td>
+	<td>LATIN SMALL LETTER J</td>
+</tr>
+<tr class="L3">
+	<td>006B</td>
+	<td>k</td>
+	<td>LATIN SMALL LETTER K</td>
+</tr>
+<tr class="L3">
+	<td>006C</td>
+	<td>l</td>
+	<td>LATIN SMALL LETTER L</td>
+</tr>
+<tr class="L3">
+	<td>006D</td>
+	<td>m</td>
+	<td>LATIN SMALL LETTER M</td>
+</tr>
+<tr class="L3">
+	<td>006E</td>
+	<td>n</td>
+	<td>LATIN SMALL LETTER N</td>
+</tr>
+<tr class="L3">
+	<td>006F</td>
+	<td>o</td>
+	<td>LATIN SMALL LETTER O</td>
+</tr>
+<tr class="L3">
+	<td>0070</td>
+	<td>p</td>
+	<td>LATIN SMALL LETTER P</td>
+</tr>
+<tr class="L3">
+	<td>0071</td>
+	<td>q</td>
+	<td>LATIN SMALL LETTER Q</td>
+</tr>
+<tr class="L3">
+	<td>0072</td>
+	<td>r</td>
+	<td>LATIN SMALL LETTER R</td>
+</tr>
+<tr class="L3">
+	<td>0073</td>
+	<td>s</td>
+	<td>LATIN SMALL LETTER S</td>
+</tr>
+<tr class="L3">
+	<td>0074</td>
+	<td>t</td>
+	<td>LATIN SMALL LETTER T</td>
+</tr>
+<tr class="L3">
+	<td>0075</td>
+	<td>u</td>
+	<td>LATIN SMALL LETTER U</td>
+</tr>
+<tr class="L3">
+	<td>0076</td>
+	<td>v</td>
+	<td>LATIN SMALL LETTER V</td>
+</tr>
+<tr class="L3">
+	<td>0077</td>
+	<td>w</td>
+	<td>LATIN SMALL LETTER W</td>
+</tr>
+<tr class="L3">
+	<td>0078</td>
+	<td>x</td>
+	<td>LATIN SMALL LETTER X</td>
+</tr>
+<tr class="L3">
+	<td>0079</td>
+	<td>y</td>
+	<td>LATIN SMALL LETTER Y</td>
+</tr>
+<tr class="L3">
+	<td>007A</td>
+	<td>z</td>
+	<td>LATIN SMALL LETTER Z</td>
+</tr>
+<tr class="L2">
+	<td>007B</td>
+	<td>{</td>
+	<td>LEFT CURLY BRACKET</td>
+	<td rowspan=4>Available on English keyboards</td>
+</tr>
+<tr class="L2">
+	<td>007C</td>
+	<td>|</td>
+	<td>VERTICAL LINE</td>
+</tr>
+<tr class="L2">
+	<td>007D</td>
+	<td>}</td>
+	<td>RIGHT CURLY BRACKET</td>
+</tr>
+<tr class="L2">
+	<td>007E</td>
+	<td>~</td>
+	<td>TILDE</td>
+</tr>
+<tr class="L3">
+	<td>00A0</td>
+	<td>&nbsp;</td>
+	<td>NO-BREAK SPACE</td>
+	<td>Used to separate words that must appear on the same line for clarity</td>
+</tr>
+<tr class="L3">
+	<td>00AD</td>
+	<td>&shy;</td>
+	<td>SOFT HYPHEN</td>
+	<td>Invisible mark that allows hyphenated breaks</td>
+</tr>
+<tr class="L3">
+	<td>00A2</td>
+	<td>¢</td>
+	<td>CENT SIGN</td>
+	<td>Currency symbol for the USA<sup>4</sup></td>
+</tr>
+<tr class="L1">
+	<td>00A3</td>
+	<td>£</td>
+	<td>POUND SIGN</td>
+	<td>Currency symbol for the UK</td>
+</tr>
+<tr class="L3">
+	<td>00A4</td>
+	<td>¤</td>
+	<td>CURRENCY SIGN</td>
+	<td>Commonly part of standard glyph lists</td>
+</tr>
+<tr class="L2">
+	<td>00A6</td>
+	<td>¦</td>
+	<td>BROKEN BAR</td>
+	<td>Available on English keyboards</td>
+</tr>
+<tr class="L2">
+	<td>00A7</td>
+	<td>§</td>
+	<td>SECTION SIGN</td>
+	<td>Necessary for professional typography</td>
+</tr>
+<tr class="L3">
+	<td>00A9</td>
+	<td>©</td>
+	<td>COPYRIGHT SIGN</td>
+	<td>Used in copyright statements, formerly essential in the USA</td>
+</tr>
+<tr class="L2">
+	<td>00AC</td>
+	<td>¬</td>
+	<td>NOT SIGN</td>
+	<td>Available on English keyboards</td>
+</tr>
+<tr class="L3">
+	<td>00AE</td>
+	<td>®</td>
+	<td>REGISTERED SIGN</td>
+	<td>Denotes registered trademarks</td>
+</tr>
+<tr class="L2">
+	<td>00B0</td>
+	<td>°</td>
+	<td>DEGREE SIGN</td>
+	<td rowspan=2>Common and useful symbols</td>
+</tr>
+<tr class="L2">
+	<td>00B1</td>
+	<td>±</td>
+	<td>PLUS-MINUS SIGN</td>
+</tr>
+<tr class="L3">
+	<td>00B2</td>
+	<td>²</td>
+	<td>SUPERSCRIPT TWO</td>
+	<td rowspan=2>Represents squared and cubed numbers<sup>5</sup></td>
+</tr>
+<tr class="L3">
+	<td>00B3</td>
+	<td>³</td>
+	<td>SUPERSCRIPT THREE</td>
+</tr>
+<tr class="L3">
+	<td>00B5</td>
+	<td>µ</td>
+	<td>MICRO SIGN</td>
+	<td>Symbol for SI prefix</td>
+</tr>
+<tr class="L3">
+	<td>00B6</td>
+	<td>¶</td>
+	<td>PILCROW SIGN</td>
+	<td>Used in legal texts and word processors</td>
+</tr>
+<tr class="L1">
+	<td>00B7</td>
+	<td>·</td>
+	<td>MIDDLE DOT</td>
+	<td>Used to mark proper names in Quikscript</td>
+</tr>
+<tr class="L3">
+	<td>00B9</td>
+	<td>¹</td>
+	<td>SUPERSCRIPT ONE</td>
+	<td rowspan=4>Commonly part of standard glyph lists<sup>5</sup></td>
+</tr>
+<tr class="L3">
+	<td>00BC</td>
+	<td>¼</td>
+	<td>VULGAR FRACTION ONE QUARTER</td>
+</tr>
+<tr class="L3">
+	<td>00BD</td>
+	<td>½</td>
+	<td>VULGAR FRACTION ONE HALF</td>
+</tr>
+<tr class="L3">
+	<td>00BE</td>
+	<td>¾</td>
+	<td>VULGAR FRACTION THREE QUARTERS</td>
+</tr>
+<tr class="L2">
+	<td>00D7</td>
+	<td>×</td>
+	<td>MULTIPLICATION SIGN</td>
+	<td>Used in mathematics</td>
+</tr>
+<tr class="L3">
+	<td>00E6</td>
+	<td>æ</td>
+	<td>LATIN SMALL LETTER AE</td>
+	<td rowspan=2>International Phonetic Alphabet (IPA) for English</td>
+</tr>
+<tr class="L3">
+	<td>00F0</td>
+	<td>ð</td>
+	<td>LATIN SMALL LETTER ETH</td>
+</tr>
+<tr class="L2">
+	<td>00F7</td>
+	<td>÷</td>
+	<td>DIVISION SIGN</td>
+	<td>Used in mathematics</td>
+</tr>
+<tr class="L3">
+	<td>014B</td>
+	<td>ŋ</td>
+	<td>LATIN SMALL LETTER ENG</td>
+	<td rowspan=18>IPA for English</td>
+</tr>
+<tr class="L3">
+	<td>0251</td>
+	<td>ɑ</td>
+	<td>LATIN SMALL LETTER ALPHA</td>
+</tr>
+<tr class="L3">
+	<td>0252</td>
+	<td>ɒ</td>
+	<td>LATIN SMALL LETTER TURNED ALPHA</td>
+</tr>
+<tr class="L3">
+	<td>0254</td>
+	<td>ɔ</td>
+	<td>LATIN SMALL LETTER OPEN O</td>
+</tr>
+<tr class="L3">
+	<td>0259</td>
+	<td>ə</td>
+	<td>LATIN SMALL LETTER SCHWA</td>
+</tr>
+<tr class="L3">
+	<td>025B</td>
+	<td>ɛ</td>
+	<td>LATIN SMALL LETTER OPEN E</td>
+</tr>
+<tr class="L3">
+	<td>025C</td>
+	<td>ɜ</td>
+	<td>LATIN SMALL LETTER REVERSED OPEN E</td>
+</tr>
+<tr class="L3">
+	<td>0261</td>
+	<td>ɡ</td>
+	<td>LATIN SMALL LETTER SCRIPT G</td>
+</tr>
+<tr class="L3">
+	<td>026A</td>
+	<td>ɪ</td>
+	<td>LATIN LETTER SMALL CAPITAL I</td>
+</tr>
+<tr class="L3">
+	<td>0279</td>
+	<td>ɹ</td>
+	<td>LATIN SMALL LETTER TURNED R</td>
+<tr class="L3">
+	<td>0283</td>
+	<td>ʃ</td>
+	<td>LATIN SMALL LETTER ESH</td>
+</tr>
+<tr class="L3">
+	<td>028A</td>
+	<td>ʊ</td>
+	<td>LATIN SMALL LETTER UPSILON</td>
+</tr>
+<tr class="L3">
+	<td>028C</td>
+	<td>ʌ</td>
+	<td>LATIN SMALL LETTER TURNED V</td>
+</tr>
+<tr class="L3">
+	<td>0292</td>
+	<td>ʒ</td>
+	<td>LATIN SMALL LETTER EZH</td>
+</tr>
+<tr class="L3">
+	<td>0294</td>
+	<td>ʔ</td>
+	<td>LATIN LETTER GLOTTAL STOP</td>
+</tr>
+<tr class="L3">
+	<td>02C8</td>
+	<td>ˈ</td>
+	<td>MODIFIER LETTER VERTICAL LINE</td>
+</tr>
+<tr class="L3">
+	<td>02CC</td>
+	<td>ˌ</td>
+	<td>MODIFIER LETTER LOW VERTICAL LINE</td>
+</tr>
+<tr class="L3">
+	<td>02D0</td>
+	<td>ː</td>
+	<td>MODIFIER LETTER TRIANGULAR COLON</td>
+</tr>
+<tr class="L3">
+	<td>030D</td>
+	<td>̍</td>
+	<td>COMBINING VERTICAL LINE ABOVE</td>
+	<td>May be used with Junior Quikscript to denote stressed syllables</td>
+</tr>
+<tr class="L3">
+	<td>03B8</td>
+	<td>θ</td>
+	<td>GREEK SMALL LETTER THETA</td>
+	<td>IPA for English</td>	</tr>
+<tr class="L3">
+	<td>03C0</td>
+	<td>π</td>
+	<td>GREEK SMALL LETTER PI</td>
+	<td>Used in mathematics</td>
+</tr>
+<tr class="L3">
+	<td>2000</td>
+	<td>&#8192;</td>
+	<td>EN QUAD</td>
+	<td rowspan=12>Necessary for professional typography</td>
+</tr>
+<tr class="L3">
+	<td>2001</td>
+	<td>&#8193;</td>
+	<td>EM QUAD</td>
+</tr>
+<tr class="L3">
+	<td>2002</td>
+	<td>&#8194;</td>
+	<td>EN SPACE</td>
+</tr>
+<tr class="L3">
+	<td>2003</td>
+	<td>&#8195;</td>
+	<td>EM SPACE</td>
+</tr>
+<tr class="L3">
+	<td>2004</td>
+	<td>&#8196;</td>
+	<td>THREE-PER-EM SPACE</td>
+</tr>
+<tr class="L3">
+	<td>2005</td>
+	<td>&#8197;</td>
+	<td>FOUR-PER-EM SPACE</td>
+</tr>
+<tr class="L3">
+	<td>2006</td>
+	<td>&#8198;</td>
+	<td>SIX-PER-EM SPACE</td>
+</tr>
+<tr class="L3">
+	<td>2007</td>
+	<td>&#8199;</td>
+	<td>FIGURE SPACE</td>
+</tr>
+<tr class="L3">
+	<td>2008</td>
+	<td>&#8200;</td>
+	<td>PUNCTUATION SPACE</td>
+</tr>
+<tr class="L3">
+	<td>2009</td>
+	<td>&#8201;</td>
+	<td>THIN SPACE</td>
+</tr>
+<tr class="L3">
+	<td>200A</td>
+	<td>&#8202;</td>
+	<td>HAIR SPACE</td>
+</tr>
+<tr class="L3">
+	<td>200B</td>
+	<td>&#8203;</td>
+	<td>ZERO WIDTH SPACE</td>
+</tr>
+<tr class="L3">
+	<td>200C</td>
+	<td>&#8204;</td>
+	<td>ZERO WIDTH NON-JOINER</td>
+	<td>Breaks up a sequence of characters to prevent automatic ligation</td>
+</tr>
+<tr class="L3">
+	<td>200D</td>
+	<td>&#8205;</td>
+	<td>ZERO WIDTH JOINER</td>
+	<td>Commonly part of standard glyph lists</td>	</tr>
+<tr class="L3">
+	<td>2010</td>
+	<td>‐</td>
+	<td>HYPHEN</td>
+	<td>Necessary for professional typography</td>	</tr>
+<tr class="L3">
+	<td>2011</td>
+	<td>‑</td>
+	<td>NON-BREAKING HYPHEN</td>
+	<td>Hyphenates words that must appear on the same line for clarity</td> 
+</tr>
+<tr class="L3">
+	<td>2012</td>
+	<td>‒</td>
+	<td>FIGURE DASH</td>
+	<td>Dash specifying a range of numbers</td> 
+</tr>
+<tr class="L2">
+	<td>2013</td>
+	<td>–</td>
+	<td>EN DASH</td>
+	<td rowspan=2>Common English punctuation</td>
+</tr>
+<tr class="L2">
+	<td>2014</td>
+	<td>—</td>
+	<td>EM DASH</td>
+</tr>
+<tr class="L3">
+	<td>2015</td>
+	<td>―</td>
+	<td>HORIZONTAL BAR</td>
+	<td>Commonly part of standard glyph lists</td>
+</tr>
+<tr class="L1">
+	<td>2018</td>
+	<td>‘</td>
+	<td>LEFT SINGLE QUOTATION MARK</td>
+	<td rowspan=4>Essential glyphs for English</td>
+</tr>
+<tr class="L1">
+	<td>2019</td>
+	<td>’</td>
+	<td>RIGHT SINGLE QUOTATION MARK</td>
+</tr>
+<tr class="L1">
+	<td>201C</td>
+	<td>“</td>
+	<td>LEFT DOUBLE QUOTATION MARK</td>
+</tr>
+<tr class="L1">
+	<td>201D</td>
+	<td>”</td>
+	<td>RIGHT DOUBLE QUOTATION MARK</td>
+</tr>
+<tr class="L2">
+	<td>2020</td>
+	<td>†</td>
+	<td>DAGGER</td>
+	<td rowspan=2>Denotes footnotes</td>	</tr>
+<tr class="L2">
+	<td>2021</td>
+	<td>‡</td>
+	<td>DOUBLE DAGGER</td>
+</tr>
+<tr class="L2">
+	<td>2022</td>
+	<td>•</td>
+	<td>BULLET</td>
+	<td rowspan=2>Necessary for professional typography</td>
+</tr>
+<tr class="L2">
+	<td>2026</td>
+	<td>…</td>
+	<td>HORIZONTAL ELLIPSIS</td>
+</tr>
+<tr class="L2">
+	<td>2032</td>
+	<td>′</td>
+	<td>PRIME</td>
+	<td rowspan=2>Denotes minutes and seconds, feet and inches or first and second derivatives</td>
+</tr>
+<tr class="L2">
+	<td>2033</td>
+	<td>″</td>
+	<td>DOUBLE PRIME</td>
+</tr>
+<tr class="L3">
+	<td>2044</td>
+	<td>⁄</td>
+	<td>FRACTION SLASH</td>
+	<td rowspan=18>Sometimes used to construct vulgar fractions<sup>5</sup></td>
+</tr>
+<tr class="L3">
+	<td>2070</td>
+	<td>⁰</td>
+	<td>SUPERSCRIPT ZERO</td>
+</tr>
+<tr class="L3">
+	<td>2074</td>
+	<td>⁴</td>
+	<td>SUPERSCRIPT FOUR</td>
+</tr>
+<tr class="L3">
+	<td>2075</td>
+	<td>⁵</td>
+	<td>SUPERSCRIPT FIVE</td>
+</tr>
+<tr class="L3">
+	<td>2076</td>
+	<td>⁶</td>
+	<td>SUPERSCRIPT SIX</td>
+</tr>
+<tr class="L3">
+	<td>2077</td>
+	<td>⁷</td>
+	<td>SUPERSCRIPT SEVEN</td>
+</tr>
+<tr class="L3">
+	<td>2078</td>
+	<td>⁸</td>
+	<td>SUPERSCRIPT EIGHT</td>
+</tr>
+<tr class="L3">
+	<td>2079</td>
+	<td>⁹</td>
+	<td>SUPERSCRIPT NINE</td>
+</tr>
+<tr class="L3">
+	<td>2080</td>
+	<td>₀</td>
+	<td>SUBSCRIPT ZERO</td>
+</tr>
+<tr class="L3">
+	<td>2081</td>
+	<td>₁</td>
+	<td>SUBSCRIPT ONE</td>
+</tr>
+<tr class="L3">
+	<td>2082</td>
+	<td>₂</td>
+	<td>SUBSCRIPT TWO</td>
+</tr>
+<tr class="L3">
+	<td>2083</td>
+	<td>₃</td>
+	<td>SUBSCRIPT THREE</td>
+</tr>
+<tr class="L3">
+	<td>2084</td>
+	<td>₄</td>
+	<td>SUBSCRIPT FOUR</td>
+</tr>
+<tr class="L3">
+	<td>2085</td>
+	<td>₅</td>
+	<td>SUBSCRIPT FIVE</td>
+</tr>
+<tr class="L3">
+	<td>2086</td>
+	<td>₆</td>
+	<td>SUBSCRIPT SIX</td>
+</tr>
+<tr class="L3">
+	<td>2087</td>
+	<td>₇</td>
+	<td>SUBSCRIPT SEVEN</td>
+</tr>
+<tr class="L3">
+	<td>2088</td>
+	<td>₈</td>
+	<td>SUBSCRIPT EIGHT</td>
+</tr>
+<tr class="L3">
+	<td>2089</td>
+	<td>₉</td>
+	<td>SUBSCRIPT NINE</td>
+</tr>
+<tr class="L1">
+	<td>20AC</td>
+	<td>€</td>
+	<td>EURO SIGN</td>
+	<td>Currency symbol for Ireland</td>
+</tr>
+<tr class="L3">
+	<td>2105</td>
+	<td>℅</td>
+	<td>CARE OF</td>
+	<td>Used in postal addresses</td>
+</tr>
+<tr class="L3">
+	<td>2113</td>
+	<td>ℓ</td>
+	<td>SCRIPT SMALL L</td>
+	<td>Sometimes used as a symbol for the litre</td>
+</tr>
+<tr class="L3">
+	<td>2116</td>
+	<td>№</td>
+	<td>NUMERO SIGN</td>
+	<td>Necessary for professional typography</td>
+</tr>
+<tr class="L3">
+	<td>2117</td>
+	<td>℗</td>
+	<td>SOUND RECORDING COPYRIGHT</td>
+	<td>Used on commercial music packaging etc.</td>
+</tr>
+<tr class="L3">
+	<td>2120</td>
+	<td>℠</td>
+	<td>SERVICE MARK</td>
+	<td>Rare companion to the trademark sign</td>
+</tr>
+<tr class="L3">
+	<td>2122</td>
+	<td>™</td>
+	<td>TRADE MARK SIGN</td>
+	<td>Necessary for professional typography</td>
+</tr>
+<tr class="L3">
+	<td>2126</td>
+	<td>Ω</td>
+	<td>OHM SIGN</td>
+	<td>Symbol for SI unit (Greek capital Omega may be preferred)</td>
+</tr>
+<tr class="L3">
+	<td>212E</td>
+	<td>℮</td>
+	<td>ESTIMATED SYMBOL</td>
+	<td>Used on European packaging</td>
+</tr>
+<tr class="L3">
+	<td>2153</td>
+	<td>⅓</td>
+	<td>VULGAR FRACTION ONE THIRD</td>
+	<td rowspan=6>Commonly part of standard glyph lists<sup>5</sup></td>
+</tr>
+<tr class="L3">
+	<td>2154</td>
+	<td>⅔</td>
+	<td>VULGAR FRACTION TWO THIRDS</td>
+</tr>
+<tr class="L3">
+	<td>215B</td>
+	<td>⅛</td>
+	<td>VULGAR FRACTION ONE EIGHTH</td>
+</tr>
+<tr class="L3">
+	<td>215C</td>
+	<td>⅜</td>
+	<td>VULGAR FRACTION THREE EIGHTHS</td>
+</tr>
+<tr class="L3">
+	<td>215D</td>
+	<td>⅝</td>
+	<td>VULGAR FRACTION FIVE EIGHTHS</td>
+</tr>
+<tr class="L3">
+	<td>215E</td>
+	<td>⅞</td>
+	<td>VULGAR FRACTION SEVEN EIGHTHS</td>
+</tr>
+<tr class="L3">
+	<td>2190</td>
+	<td>←</td>
+	<td>LEFTWARDS ARROW</td>
+	<td rowspan=8>Useful for signage and user interfaces</td>
+</tr>
+<tr class="L3">
+	<td>2191</td>
+	<td>↑</td>
+	<td>UPWARDS ARROW</td>
+</tr>
+<tr class="L3">
+	<td>2192</td>
+	<td>→</td>
+	<td>RIGHTWARDS ARROW</td>
+</tr>
+<tr class="L3">
+	<td>2193</td>
+	<td>↓</td>
+	<td>DOWNWARDS ARROW</td>
+</tr>
+<tr class="L3">
+	<td>2196</td>
+	<td>↖&#xFE0E;</td>
+	<td>NORTH WEST ARROW</td>
+</tr>
+<tr class="L3">
+	<td>2197</td>
+	<td>↗&#xFE0E;</td>
+	<td>NORTH EAST ARROW</td>
+</tr>
+<tr class="L3">
+	<td>2198</td>
+	<td>↘&#xFE0E;</td>
+	<td>SOUTH EAST ARROW</td>
+</tr>
+<tr class="L3">
+	<td>2199</td>
+	<td>↙&#xFE0E;</td>
+	<td>SOUTH WEST ARROW</td>
+</tr>
+<tr class="L3">
+	<td>2202</td>
+	<td>∂</td>
+	<td>PARTIAL DIFFERENTIAL</td>
+	<td rowspan=14>Used in mathematics</td>
+</tr>
+<tr class="L3">
+	<td>2206</td>
+	<td>∆</td>
+	<td>INCREMENT</td>
+</tr>
+<tr class="L3">
+	<td>220F</td>
+	<td>∏</td>
+	<td>N-ARY PRODUCT</td>
+</tr>
+<tr class="L3">
+	<td>2211</td>
+	<td>∑</td>
+	<td>N-ARY SUMMATION</td>
+</tr>
+<tr class="L3">
+	<td>2212</td>
+	<td>−</td>
+	<td>MINUS SIGN</td>
+</tr>
+<tr class="L3">
+	<td>2215</td>
+	<td>∕</td>
+	<td>DIVISION SLASH</td>
+</tr>
+<tr class="L3">
+	<td>2219</td>
+	<td>∙</td>
+	<td>BULLET OPERATOR</td>
+</tr>
+<tr class="L3">
+	<td>221A</td>
+	<td>√</td>
+	<td>SQUARE ROOT</td>
+</tr>
+<tr class="L3">
+	<td>221E</td>
+	<td>∞</td>
+	<td>INFINITY</td>
+</tr>
+<tr class="L3">
+	<td>222B</td>
+	<td>∫</td>
+	<td>INTEGRAL</td>
+</tr>
+<tr class="L3">
+	<td>2248</td>
+	<td>≈</td>
+	<td>ALMOST EQUAL TO</td>
+</tr>
+<tr class="L3">
+	<td>2260</td>
+	<td>≠</td>
+	<td>NOT EQUAL TO</td>
+</tr>
+<tr class="L3">
+	<td>2264</td>
+	<td>≤</td>
+	<td>LESS-THAN OR EQUAL TO</td>
+</tr>
+<tr class="L3">
+	<td>2265</td>
+	<td>≥</td>
+	<td>GREATER-THAN OR EQUAL TO</td>
+</tr>
+<tr class="L3">
+	<td>2329</td>
+	<td>〈</td>
+	<td>LEFT-POINTING ANGLE BRACKET</td>
+	<td rowspan=2>Denotes orthography in linguistic texts</td>
+</tr>
+<tr class="L3">
+	<td>232A</td>
+	<td>〉</td>
+	<td>RIGHT-POINTING ANGLE BRACKET</td>
+</tr>
+<tr class="L3">
+	<td>25A0</td>
+	<td>■</td>
+	<td>BLACK SQUARE</td>
+	<td rowspan=2>Denotes the end of an article in some magazines</td>
+</tr>
+<tr class="L3">
+	<td>25A1</td>
+	<td>□</td>
+	<td>WHITE SQUARE</td>
+</tr>
+<tr class="L3">
+	<td>25B2</td>
+	<td>▲</td>
+	<td>BLACK UP-POINTING TRIANGLE</td>
+	<td rowspan=4>May be used in user interfaces etc.</td>
+</tr>
+<tr class="L3">
+	<td>25B6</td>
+	<td>▶&#xFE0E;</td>
+	<td>BLACK RIGHT-POINTING TRIANGLE</td>
+</tr>
+<tr class="L3">
+	<td>25BC</td>
+	<td>▼</td>
+	<td>BLACK DOWN-POINTING TRIANGLE</td>
+</tr>
+<tr class="L3">
+	<td>25C0</td>
+	<td>◀&#xFE0E;</td>
+	<td>BLACK LEFT-POINTING TRIANGLE</td>
+</tr>
+<tr class="L3">
+	<td>25CA</td>
+	<td>◊</td>
+	<td>LOZENGE</td>
+	<td>Commonly part of standard glyph lists</td>
+</tr>
+<tr class="L3">
+	<td>266A</td>
+	<td>♪</td>
+	<td>EIGHTH NOTE</td>
+	<td rowspan=2>Used in subtitles/closed captions</td>
+</tr>
+<tr class="L3">
+	<td>266B</td>
+	<td>♫</td>
+	<td>BEAMED EIGHTH NOTES</td>
+</tr>
+<tr class="L0">
+	<td>E650</td>
+	<td></td>
+	<td>QUIKSCRIPT LETTER PIPE</td>
+	<td rowspan=46>The Quikscript characters themselves, located in the Unicode Private Use area for compatibility with other scripts</td>
+</tr>
+<tr class="L0">
+	<td>E651</td>
+	<td></td>
+	<td>QUIKSCRIPT LETTER BOB</td>
+</tr>
+<tr class="L0">
+	<td>E652</td>
+	<td></td>
+	<td>QUIKSCRIPT LETTER TUT</td>
+</tr>
+<tr class="L0">
+	<td>E653</td>
+	<td></td>
+	<td>QUIKSCRIPT LETTER DEED</td>
+</tr>
+<tr class="L0">
+	<td>E654</td>
+	<td></td>
+	<td>QUIKSCRIPT LETTER KICK</td>
+</tr>
+<tr class="L0">
+	<td>E655</td>
+	<td></td>
+	<td>QUIKSCRIPT LETTER GIG</td>
+</tr>
+<tr class="L0">
+	<td>E656</td>
+	<td></td>
+	<td>QUIKSCRIPT LETTER THOTH</td>
+</tr>
+<tr class="L0">
+	<td>E657</td>
+	<td></td>
+	<td>QUIKSCRIPT LETTER THITHER</td>
+</tr>
+<tr class="L0">
+	<td>E658</td>
+	<td></td>
+	<td>QUIKSCRIPT LETTER FIFE</td>
+</tr>
+<tr class="L0">
+	<td>E659</td>
+	<td></td>
+	<td>QUIKSCRIPT LETTER VALVE</td>
+</tr>
+<tr class="L0">
+	<td>E65A</td>
+	<td></td>
+	<td>QUIKSCRIPT LETTER SIS</td>
+</tr>
+<tr class="L0">
+	<td>E65B</td>
+	<td></td>
+	<td>QUIKSCRIPT LETTER ZOOS</td>
+</tr>
+<tr class="L0">
+	<td>E65C</td>
+	<td></td>
+	<td>QUIKSCRIPT LETTER SHUSH</td>
+</tr>
+<tr class="L0">
+	<td>E65D</td>
+	<td></td>
+	<td>QUIKSCRIPT LETTER ZHIVAGO</td>
+</tr>
+<tr class="L0">
+	<td>E65E</td>
+	<td></td>
+	<td>QUIKSCRIPT LETTER CHURCH</td>
+</tr>
+<tr class="L0">
+	<td>E65F</td>
+	<td></td>
+	<td>QUIKSCRIPT LETTER JUDGE</td>
+</tr>
+<tr class="L0">
+	<td>E660</td>
+	<td></td>
+	<td>QUIKSCRIPT LETTER YO-YO</td>
+</tr>
+<tr class="L0">
+	<td>E661</td>
+	<td></td>
+	<td>QUIKSCRIPT LETTER WIN-WIN</td>
+</tr>
+<tr class="L0">
+	<td>E662</td>
+	<td></td>
+	<td>QUIKSCRIPT LETTER HA-HA</td>
+</tr>
+<tr class="L0">
+	<td>E663</td>
+	<td></td>
+	<td>QUIKSCRIPT LETTER WHITEWHEAT</td>
+</tr>
+<tr class="L0">
+	<td>E664</td>
+	<td></td>
+	<td>QUIKSCRIPT LETTER INKLING</td>
+</tr>
+<tr class="L0">
+	<td>E665</td>
+	<td></td>
+	<td>QUIKSCRIPT LETTER MIME</td>
+</tr>
+<tr class="L0">
+	<td>E666</td>
+	<td></td>
+	<td>QUIKSCRIPT LETTER NUN</td>
+</tr>
+<tr class="L0">
+	<td>E667</td>
+	<td></td>
+	<td>QUIKSCRIPT LETTER LOLL</td>
+</tr>
+<tr class="L0">
+	<td>E668</td>
+	<td></td>
+	<td>QUIKSCRIPT LETTER ROAR</td>
+</tr>
+<tr class="L0">
+	<td>E669</td>
+	<td></td>
+	<td>QUIKSCRIPT LETTER LOCH</td>
+</tr>
+<tr class="L0">
+	<td>E66A</td>
+	<td></td>
+	<td>QUIKSCRIPT LETTER LLAN</td>
+</tr>
+<tr class="L0">
+	<td>E66B</td>
+	<td></td>
+	<td>QUIKSCRIPT LETTER AXE</td>
+</tr>
+<tr class="L0">
+	<td>E66C</td>
+	<td></td>
+	<td>QUIKSCRIPT LETTER EXAM</td>
+</tr>
+<tr class="L0">
+	<td>E66E</td>
+	<td></td>
+	<td>QUIKSCRIPT LEFT ANGLED PARENTHESIS</td>
+</tr>
+<tr class="L0">
+	<td>E66F</td>
+	<td></td>
+	<td>QUIKSCRIPT RIGHT ANGLED PARENTHESIS</td>
+</tr>
+<tr class="L0">
+	<td>E670</td>
+	<td></td>
+	<td>QUIKSCRIPT LETTER IF</td>
+</tr>
+<tr class="L0">
+	<td>E671</td>
+	<td></td>
+	<td>QUIKSCRIPT LETTER EAT</td>
+</tr>
+<tr class="L0">
+	<td>E672</td>
+	<td></td>
+	<td>QUIKSCRIPT LETTER ET</td>
+</tr>
+<tr class="L0">
+	<td>E673</td>
+	<td></td>
+	<td>QUIKSCRIPT LETTER AGE</td>
+</tr>
+<tr class="L0">
+	<td>E674</td>
+	<td></td>
+	<td>QUIKSCRIPT LETTER ASH</td>
+</tr>
+<tr class="L0">
+	<td>E675</td>
+	<td></td>
+	<td>QUIKSCRIPT LETTER ICE</td>
+</tr>
+<tr class="L0">
+	<td>E676</td>
+	<td></td>
+	<td>QUIKSCRIPT LETTER AH</td>
+</tr>
+<tr class="L0">
+	<td>E677</td>
+	<td></td>
+	<td>QUIKSCRIPT LETTER AWL</td>
+</tr>
+<tr class="L0">
+	<td>E678</td>
+	<td></td>
+	<td>QUIKSCRIPT LETTER ON</td>
+</tr>
+<tr class="L0">
+	<td>E679</td>
+	<td></td>
+	<td>QUIKSCRIPT LETTER OIL</td>
+</tr>
+<tr class="L0">
+	<td>E67A</td>
+	<td></td>
+	<td>QUIKSCRIPT LETTER ADO</td>
+</tr>
+<tr class="L0">
+	<td>E67B</td>
+	<td></td>
+	<td>QUIKSCRIPT LETTER OUT</td>
+</tr>
+<tr class="L0">
+	<td>E67C</td>
+	<td></td>
+	<td>QUIKSCRIPT LETTER OAK</td>
+</tr>
+<tr class="L0">
+	<td>E67D</td>
+	<td></td>
+	<td>QUIKSCRIPT LETTER WOOL</td>
+</tr>
+<tr class="L0">
+	<td>E67E</td>
+	<td></td>
+	<td>QUIKSCRIPT LETTER OOZE</td>
+</tr>
+</table>
+
+<p>Additionally: every font should contain a glyph, with no assigned Unicode codepoint, called “.notdef”. This is displayed in place of any characters missing from the font (i.e. <i>not defined</i>) and usually takes the form of a rectangular box, sometimes with a question mark or cross,  like this “󰀀”.</p>
+
+<p>Notes:</p>
+<ol>
+	<li>These essential glyphs should be available in a matching style, without needing to switch fonts.</li>
+	<li>A polished, user-friendly font should have the complete set of characters accessible on a standard keyboard.</li>
+	<li>It is often preferable to use a different typeface for different scripts, to provide greater contrast in sentences.</li>
+	<li>Small “c” is the preferred cent symbol in Australia and New Zealand.</li>
+	<li>Although Unicode defines these characters, using OpenType features can be used to achieve the same effect.</li>
+</ol>
+
+</main>
+<footer>
+	<p>Copyright © 2022, Brad Neil. The text of this page is licenced under <span style="font-size: 1.5em; vertical-align: -0.125em;">🅭🅯</span> <a rel="license" href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution</a>.<br>My email address is my first name @ this website.</p>
+</footer>
+</body>
+</html>

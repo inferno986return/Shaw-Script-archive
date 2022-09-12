@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<title>QSTC | FriedOrange’s Quikscript Pages</title>
+<meta charset="utf-8">
+<meta name="author" content="Brad Neil">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+	* {
+		box-sizing: border-box;
+	}
+	body {
+		max-width: 110em;
+		margin: auto;
+		padding-left: 1em;
+		padding-right: 1em;
+	}
+	body, textarea{
+		font-family: "Open Sans", "Noto Sans", Verdana, "Quikscript Sans", ThothUni, "Abbots Morton Experiment", Kingsley, sans-serif;
+		line-height: 1.5;
+		background: ghostwhite;
+	}
+	table {
+		width: 100%;
+		height: 100%;
+	}
+	td {
+		width: 50%;
+	}
+	#header {
+		text-align: center;
+	}
+	details p {
+		text-align: left;
+		font-size: 0.75em;
+		max-width: 70em;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	h2, h3 {
+		color: darkslategrey;
+	}
+	textarea {
+		border: 1px solid grey;
+		padding: 0.5em;
+		margin-top: 1em;
+		overflow-y: scroll;
+		resize: none;
+		width: 100%;
+		font-size: 1em;
+	}
+	@media screen and (min-width: 40em) {
+		textarea {
+			height: 45em;
+		}
+	}
+	@media screen and (max-width: 40em) {
+		textarea {
+			max-height: 30em;
+		}
+	}
+	#inputBox {
+		background: white;
+	}
+	#inWarning, #outWarning {
+		font-size: 0.75em;
+	}
+</style>
+
+</head>
+<body>
+
+<table>
+<tr>
+	<td id="header" colspan="2">
+	<h2>QSTC</h2>
+
+	<p>FriedOrange’s Quikscript Transcoder, Version 1.03</p>
+	<details>
+		<summary>View license...</summary>
+		<p>Copyright 2020 Brad Neil (http://friedorange.xyz/)</p>
+		<p>Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:</p>
+		<p>The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.</p>
+		<p>THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.</p>
+	</details>
+	</td>
+</tr>
+<tr>
+	<td>
+	<h3>Input</h3>
+	<p>Encoding: 
+	<select id="inputEncoding" onchange="convert()">
+		<option>Second Shaw</option>
+		<option>Suave</option>
+		<option>Quickscript</option>
+		<option>FriedOrange (old)</option>
+		<option>Thoth Int</option>
+		<option>QS-SAMPA</option>
+		<option>Shavian-like</option>
+		<option>Jerome Beta</option>
+		<option selected="true">Unicode PUA</option>
+	</select>
+	<span id="inWarning" style="display: none;"><span style="font-size: 1.333em;">⚠</span> Conversion from this encoding will normalise ligatures and alternate letterforms.</span></p>
+	<input type="file" onchange="load(this.files[0])">
+	</td>
+	<td>
+	<h3>Output</h3>
+	<p>Encoding: 
+	<select id="outputEncoding" onchange="convert()">
+		<option>Second Shaw</option>
+		<option>Suave</option>
+		<option>Quickscript</option>
+		<option>FriedOrange (old)</option>
+		<option>Thoth Int</option>
+		<option>QS-SAMPA</option>
+		<option>Shavian-like</option>
+		<option>Jerome Beta</option>
+		<option selected="true">Unicode PUA</option>
+	</select>
+	<span id="outWarning" style="display: none;"><span style="font-size: 1.333em;">⚠</span> This encoding does not support some letters; they will instead be left as Unicode PUA.</span></p>
+	<button onclick="convert()">Transcode</button> <button onclick="save()">Save as...</button>
+	</td>
+</tr>
+<tr style="height: 100%;">
+	<td>
+	<textarea id="inputBox" spellcheck="false">  ,                       -      ·;   ,  ·  ·,     .              ·     .</textarea>
+	</td>
+	<td>
+	<textarea id="outputBox" readonly="true"></textarea>
+	</td>
+</tr>
+</table>
+
+<script>
+var uniToAscii = {
+	"":["p","p","p","p","p","p","p","p"],
+	"":["b","b","b","b","b","b","b","b"],
+	"":["t","t","t","t","t","t","t","t"],
+	"":["d","d","d","d","d","d","d","d"],
+	"":["k","k","k","k","k","k","k","k"],
+	"":["g","g","g","g","g","g","g","g"],
+	"":["Y","T","H","T","T","T","T","T"],
+	"":["T","D","T","D","D","D","H","H"],
+	"":["f","f","f","f","f","f","f","f"],
+	"":["v","v","v","v","v","v","v","v"],
+	"":["s","s","s","s","s","s","s","s"],
+	"":["z","z","z","z","z","z","z","z"],
+	"":["S","S","S","S","S","S","S","S"],
+	"":["J","Z","Z","Z","Z","Z","Z","Z"],
+	"":["c","c","J","C","C","c","c","c"],
+	"":["j","j","j","J","j","J","J","J"],
+	"":["y","y","y","y","y","j","j","j"],
+	"":["w","w","w","w","w","w","w","w"],
+	"":["h","h","h","h","h","h","h","h"],
+	"":["","W","W","W","P","W","`","B"],
+	"":["N","G","N","N","N","N","N","N"],
+	"":["m","m","m","m","m","m","m","m"],
+	"":["n","n","n","n","n","n","n","n"],
+	"":["l","l","l","l","l","l","l","l"],
+	"":["r","r","r","r","r","r","r","r"],
+	"":["I","i","i","i","i","I","i","i"],
+	"":["e","I","E","I","E","i","I","I"],
+	"":["E","e","e","e","e","E","e","e"],
+	"":["a","E","A","E","A","e","E","E"],
+	"":["A","A","a","A","a","a","A","A"],
+	"":["i","F","I","Y","I","Y","F","F"],
+	"":["Z","x","q","q","R","A","y","y"],
+	"":["W","|","Q","Q","Q","O","Y","Y"],
+	"":["O","O","o","o","o","Q","o","o"],
+	"":["M","q","C","R","Y","R","q","q"],
+	"":["G","a","u","a","u","y","a","a"],
+	"":["L","Q","c","H","W","H","Q","Q"],
+	"":["o","o","O","O","O","o","O","O"],
+	"":["U","u","Y","U","V","U","U","U"],
+	"":["H","U","U","u","U","u","M","M"],
+	"":["","â","","x","K","x","ç","~"],
+	"":["","à","","K","L","K","æ","`"],
+	"":["","ä","","X","X","X","è",""],
+	"":["","ã","","G","x","G","é",""],
+	"·":["·","/","~",">","`","·","/","/"],
+	"":["(","(","(","(","(","(","(","("],
+	"":[")",")",")",")",")",")",")",")"]
+};
+var asciiToUni = {
+	"&":[null,"/",null,null,null,null,"/","/"],
+	"(":["","","","","","","",""],
+	")":["","","","","","","",""],
+	"/":[null,"·",null,null,null,null,"·","·"],
+	">":[null,null,null,"·",null,null,null,null],
+	"@":[null,"",null,null,null,null,"",null],
+	"A":["","","","","","","",""],
+	"B":[null,"","",null,null,"","",""],
+	"C":[null,"","","","","","",""],
+	"D":[null,"","","","","","",""],
+	"E":["","","","","","","",""],
+	"F":[null,"","",null,null,"","",""],
+	"G":["","","","",null,"","",""],
+	"H":["","","","",null,"","",""],
+	"I":["","","","","","","",""],
+	"J":["","","","",null,"","",""],
+	"K":["","","","","","","",""],
+	"L":["","̣","",null,"",null,"",""],
+	"M":["","","",null,null,null,"",""],
+	"N":["","̣","","","","","",""],
+	"O":["","","","","","","",""],
+	"P":[null,"","",null,"","","",""],
+	"Q":[null,"","","","","","",""],
+	"R":["","̣","","","","","",""],
+	"S":["","","","","","","",""],
+	"T":["","","","","","","",""],
+	"U":["","","","","","","",""],
+	"V":[null,"","",null,"","","",""],
+	"W":["","","","","","","",""],
+	"X":["","","","","","","",""],
+	"Y":["","","","","","","",""],
+	"Z":["","","","","","","",""],
+	"[":["",null,null,null,null,null,"",null],
+	"\\":[null,"\u030d",null,null,null,null,"",null],
+	"]":[null,"",null,null,null,null,null,"",null],
+	"^":[null,"",null,null,null,null,"",null],
+	"_":[null,"",null,null,null,null,null,null],
+	"`":[null,"",null,null,"·","·","",""],
+	"a":["","","","","","","",""],
+	"b":["","","","","","","",""],
+	"c":["","","",null,null,"","",""],
+	"d":["","","","","","","",""],
+	"e":["","","","","","","",""],
+	"f":["","","","","","","",""],
+	"g":["","","","","","","",""],
+	"h":["","","","","","","",""],
+	"i":["","","","","","","",""],
+	"j":["","","",null,"","","",""],
+	"k":["","","","","","","",""],
+	"l":["","","","","","","",""],
+	"m":["","","","","","","",""],
+	"n":["","","","","","","",""],
+	"o":["","","","","","","",""],
+	"p":["","","","","","","",""],
+	"q":[null,"","","",null,null,"",""],
+	"r":["","","","","","","",""],
+	"s":["","","","","","","",""],
+	"t":["","","","","","","",""],
+	"u":["","","","","","","",""],
+	"v":["","","","","","","",""],
+	"w":["","","","","","","",""],
+	"x":["","","","","","","",""],
+	"y":["","","","","","","",""],
+	"z":["","","","","","","",""],
+	"{":[null,null,null,null,null,null,null,""],
+	"|":[null,"",null,null,null,null,null,null],
+	"}":[null,null,null,null,null,null,null,""],
+	"~":[null,null,"·",null,null,null,null,""],
+	"\u0080":["€",null,null,null,null,null,null,null],
+	"\u0081":[null,"",null,null,null,null,null,null],
+	"\u0082":[null,"",null,null,null,null,null,null],
+	"\u0090":[null,"",null,null,null,null,null,null],
+	"\u0091":[null,"",null,null,null,null,null,null],
+	"\u0092":[null,"",null,null,null,null,null,null],
+	"\u0093":[null,"",null,null,null,null,null,null],
+	"\u0094":[null,"",null,null,null,null,null,null],
+	"\u0095":[null,"",null,null,null,null,null,null],
+	"\u0096":[null,"(",null,null,null,null,null,null],
+	"\u0097":[null,")",null,null,null,null,null,null],
+	"\u0098":[null,"_",null,null,null,null,null,null],
+	"µ":[null,"̣",null,null,null,null,null,null],
+	"À":[null,null,null,null,"",null,null,null],
+	"Â":[null,null,null,null,"",null,null,null],
+	"Ä":[null,null,null,null,"",null,null,null],
+	"È":[null,null,null,null,"",null,null,null],
+	"Ê":[null,null,null,null,"",null,null,null],
+	"Ë":[null,null,null,null,"",null,null,null],
+	"Ì":[null,null,null,null,"",null,null,null],
+	"Î":[null,null,null,null,"",null,null,null],
+	"Ï":[null,null,null,null,"",null,null,null],
+	"Ñ":[null,"…",null,null,"̇",null,"…",null],
+	"Ô":[null,null,null,null,"",null,null,null],
+	"Õ":[null,null,null,null,"̇",null,null,null],
+	"Ö":[null,null,null,null,"",null,null,null],
+	"Û":[null,null,null,null,"",null,null,null],
+	"Ü":[null,"‹",null,null,"",null,"‹",null],
+	"à":[null,"",null,null,"",null,"",null],
+	"á":[null,"›",null,null,null,null,"›",null],
+	"â":[null,"",null,null,"",null,"",null],
+	"ã":[null,"",null,null,null,null,"",null],
+	"ä":[null,"",null,null,"",null,"",null],
+	"æ":[null,null,null,null,null,null,"",null],
+	"ç":[null,null,null,null,null,null,"",null],
+	"è":[null,null,null,null,"",null,"",null],
+	"é":[null,"̍",null,null,null,"","",null],
+	"ê":[null,null,null,null,"",null,null,null],
+	"ë":[null,null,null,null,"",null,null,null],
+	"ì":[null,null,null,null,"",null,null,null],
+	"í":[null,"̍",null,null,null,null,null,null],
+	"î":[null,null,null,null,"",null,null,null],
+	"ï":[null,null,null,null,"",null,null,null],
+	"ñ":[null,null,null,null,"",null,null,null],
+	"ò":[null,null,null,null,"",null,null,null],
+	"ô":[null,null,null,null,"",null,null,null],
+	"õ":[null,null,null,null,"",null,null,null],
+	"ö":[null,null,null,null,"",null,null,null],
+	"ù":[null,null,null,null,"",null,null,null],
+	"ú":[null,"̍",null,null,null,"",null,null],
+	"û":[null,null,null,null,"",null,null,null],
+	"ü":[null,null,null,null,"",null,null,null],
+	"ý":[null,null,null,null,"",null,null,null],
+	"ÿ":[null,null,null,null,"",null,null,null],
+	"ī":[null,"̍",null,null,null,null,null,null],
+	"ȑ":[null,"̈",null,null,null,null,null,null],
+	"μ":[null,"̣",null,null,null,null,null,null]
+};
+
+var inputBox = document.getElementById("inputBox");
+var outputBox = document.getElementById("outputBox");
+var inWarning = document.getElementById("inWarning");
+var outWarning = document.getElementById("outWarning");
+
+function load(file) {
+	var reader = new FileReader();
+	reader.onload = function() {
+		inputBox.value = reader.result;
+		convert();
+	};
+	reader.readAsText(file);
+}
+
+function replacementChar(newChar,oldChar,encoding) {
+	if (newChar == undefined || newChar[encoding] == null) {
+		return oldChar;
+	} else {
+		return newChar[encoding];
+	}
+}
+
+function convert() {
+	const inputEncoding = document.getElementById("inputEncoding").selectedIndex;
+	const outputEncoding = document.getElementById("outputEncoding").selectedIndex;
+
+	if (inputEncoding == 3 || inputEncoding == 5 || inputEncoding == 8) { // FriedOrange (old), QS-SAMPA, Unicode PUA
+		inWarning.style.display = "none";
+	} else {
+		inWarning.style.display = "inline";
+	}
+
+	if (outputEncoding == 0 || outputEncoding == 2 || outputEncoding == 7) { // Second Shaw, Quickscipt, Jerome Beta
+		outWarning.style.display = "inline";
+	} else {
+		outWarning.style.display = "none";
+	}
+	
+	if (inputEncoding != 8) { // Unicode PUA
+		outputBox.value = inputBox.value.replace(/./g, function (oldChar) {
+			return replacementChar(asciiToUni[oldChar],oldChar,inputEncoding);
+		});
+	} else {
+		outputBox.value = inputBox.value;
+	}
+
+	if (outputEncoding != 8) {
+		outputBox.value = outputBox.value.replace(/./g, function (oldChar) {
+			return replacementChar(uniToAscii[oldChar],oldChar,outputEncoding);
+		});
+	}
+}
+
+function save() {
+  var tempLink = document.createElement("a");
+  tempLink.setAttribute("href", "data:text/plain;charset=utf-8," + encodeURIComponent(outputBox.value));
+  tempLink.setAttribute("download", "qstc_output.txt");
+
+  tempLink.style.display = "none";
+  document.body.appendChild(tempLink);
+
+  tempLink.click();
+
+  document.body.removeChild(tempLink);
+}
+</script>
+
+</body>
+</html>

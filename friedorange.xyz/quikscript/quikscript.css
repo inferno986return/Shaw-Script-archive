@@ -1,0 +1,162 @@
+* {
+	box-sizing: border-box;
+}
+header, nav, main, footer {
+	margin: auto;
+	padding-left: 1em;
+	padding-right: 1em;
+}
+body {
+	font-family: "Open Sans", "Noto Sans",/*ThothUni, "Quikscript Sans"*/ "QS Manual", "Noto Sans Shavian", CCIconsUnicode, sans-serif;
+	background: ghostwhite;
+	line-height: 1.5;
+	margin: 0;
+}
+#pgtop {
+	background: steelblue;
+}
+h1 {
+	color: ghostwhite;
+	font-family: "QS Matrix Print";
+	font-weight: normal;
+	font-size: 3em;
+	padding-top: 0.5em;
+	margin: 0;
+	line-height: 1.25;
+	text-align: center;
+}
+h2, h3, h4, h5, h6 {
+	color: darkslategrey;
+}
+a {
+	color: mediumblue;
+}
+a:visited {
+	color: midnightblue;
+}
+a:active {
+	color: deeppink;
+}
+nav ul {
+	list-style-type: none;
+	padding: 0;
+	overflow: hidden;
+  }
+@media only screen and (min-width: 56em) {
+	nav li {
+		float: left;
+	}
+	header, nav, main {
+		max-width: 56em;
+	}
+	footer {
+		max-width: 64em;
+	}
+	h1 {
+		line-height: 1.0;
+		text-align: left;
+	}
+}
+@media only screen and (max-width: 55em) {
+	h1 {
+		font-size: 2em;
+	}
+}
+nav a, nav strong {
+	display: block;
+	padding: 0.5em;
+}
+nav a, nav a:visited {
+	text-decoration: none;
+	color: ghostwhite;
+	font-weight: bold;
+}
+nav strong {
+	background: ghostwhite;
+}
+nav a:hover {
+	background: lightsteelblue;
+	color: white;
+}
+figure {
+	margin: auto;
+}
+img {
+	max-width: 100%;
+	height: auto;
+}
+li+li {
+	padding-top: 0.25em;
+}
+nav li+li {
+	padding-top: 0;
+}
+table.decorated {
+	border: 1px solid grey;
+	margin: auto;
+}
+table, th, td {
+	border-collapse: collapse;
+	text-align: left;
+}
+table.decorated th, table.decorated td {
+	padding: 0.375em;
+}
+table.decorated th {
+	height: 2em;
+}
+table.decorated tr:nth-child(even) {
+	background: white;
+}
+footer {
+	font-size: 0.875em;
+	margin-top: 4em;
+	text-align: center;
+  }
+#footnotes {
+	margin-top: 4em;
+	font-size: 0.875em;
+}
+.qs {
+	/*font-size: 1.35em;*/
+	font-size: 1.25em;
+	font-feature-settings: "liga";
+}
+.lhfix {
+	line-height: 1.5em;
+}
+figcaption {
+	font-style: italic;
+}
+@media only screen {
+	img, table.decorated {
+		 box-shadow: 6px 6px 8px slategrey;
+	}
+}
+@media only print {
+	body {
+		font-size: 0.85em;
+	}
+	.noprint, nav {
+		display: none;
+	}
+	a, a:visited, abbr {
+		color: black;
+		text-decoration: none;
+	}
+}
+@font-face {
+	font-family: "QS Matrix Print";
+	src: url("webfonts/QSMatrixPrint.woff2") format("woff2"),
+		 url("webfonts/QSMatrixPrint.woff") format("woff");
+}
+@font-face {
+	font-family: "QS Manual";
+	src: url("webfonts/QSManual.woff2") format("woff2"),
+		 url("webfonts/QSManual.woff") format("woff");
+}
+@font-face {
+	font-family: CCIconsUnicode;
+	src: url("webfonts/CCIconsUnicode.woff") format("woff"),
+		 url("webfonts/CCIconsUnicode.woff2") format("woff2");
+}
